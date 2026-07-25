@@ -1,0 +1,23 @@
+\begin{table*}[t]
+\centering
+\caption{Attack success rate (\%) by attack strategy and adversarial LLM.}
+\label{tab:strategy-model-matrix}
+\begin{tabular}{lrrrr}
+\toprule
+Strategy & GPT-4o Mini & Llama 3.3 70B & DeepSeek V3 & Qwen3 Next 80B \\
+\midrule
+Benign & 15.0 & 15.0 & 15.0 & 15.0 \\
+DPMA Best Name & 7.5 & 7.5 & 7.5 & 7.5 \\
+DPMA Best Description & 32.5 & 32.5 & 32.5 & 32.5 \\
+GAPMA Authoritative & 17.5 & 17.5 & 17.5 & 17.5 \\
+GAPMA Emotional & 22.5 & 22.5 & 22.5 & 22.5 \\
+GAPMA Exaggerated & 42.5 & 42.5 & 42.5 & 42.5 \\
+GAPMA Subliminal & 17.5 & 17.5 & 17.5 & 17.5 \\
+GAPMA GA Optimized & 35.0 & 35.0 & 35.0 & 35.0 \\
+\midrule
+Adversarial LLM — Stateless & 55.0 & 45.0 & 60.0 & -- \\
+Adversarial LLM — Memory-trained & 67.5 & 67.5 & 77.5 & -- \\
+\bottomrule
+\end{tabular}
+\begin{flushleft}\footnotesize All values are ASR percentages. Static strategies do not use an adversarial generator LLM; their ASRs are repeated across columns to provide a common reference. A dash indicates that a complete stateless/memory-trained pair was unavailable. Victim LLM: Qwen3-32B; seed: 42. Adversarial rows use attacker temperature 0.5.\end{flushleft}
+\end{table*}

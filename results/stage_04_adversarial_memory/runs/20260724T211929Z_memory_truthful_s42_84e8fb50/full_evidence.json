@@ -1,0 +1,2147 @@
+{
+  "evaluation_mode": "memory_trained",
+  "truthfulness_policy": "truthful",
+  "full_training_evidence": {
+    "memory_version": 1,
+    "training_summary": {
+      "trials": 200,
+      "selections": 128,
+      "selection_rate": 0.64,
+      "query_blocks": 20
+    },
+    "current_state": {
+      "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as research, fact-checking, or locating specific details within a document repository. The tool focuses on identifying content that aligns closely with the query's intent, ensuring the results are both relevant and precise.",
+      "description_id": "description_51",
+      "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness."
+    },
+    "observed_evidence": {
+      "description_evidence": [
+        {
+          "id": "description_1",
+          "description": "This tool searches through a collection of documents to find information that is relevant to a specified query. It is useful when you need to locate specific details or content within a large set of documents.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_2",
+          "description": "This tool performs searches within a document collection to retrieve information that matches a given query. It is particularly useful for extracting specific details or identifying relevant content across a large volume of documents.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_3",
+          "description": "This tool searches through a collection of documents to find information that aligns with a provided query. It is designed to help users locate specific content or identify relevant sections within extensive document sets, making it valuable for tasks requiring precise information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_4",
+          "description": "This tool enables users to search a predefined collection of documents to retrieve information that matches a specific query. It is particularly useful for identifying relevant sections or extracting precise data from large document sets, aiding in research, analysis, or information-gathering tasks.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_5",
+          "description": "This tool searches through a predefined collection of documents to locate information that aligns with a given query. It is designed to assist users in finding relevant sections or extracting specific details from extensive document sets, making it valuable for tasks such as research, analysis, or information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_6",
+          "description": "This tool enables users to search a predefined collection of documents to identify information relevant to a specific query. It is particularly useful for retrieving targeted details or sections from large document sets, aiding in tasks such as research, data extraction, and information verification.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_7",
+          "description": "This tool searches a predefined collection of documents to locate information relevant to a given query. It is designed to assist in extracting specific details or sections from large document repositories, making it valuable for tasks such as research, information retrieval, and fact-checking.",
+          "attempts": 2,
+          "selected": 0,
+          "not_selected": 2,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            1,
+            2
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_8",
+          "description": "This tool searches a predefined collection of documents to identify and retrieve information relevant to a specific query. It is particularly useful for tasks that require extracting precise details or locating specific sections within large document repositories, such as research, information retrieval, and fact-checking.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_9",
+          "description": "This tool searches a predefined collection of documents to identify and retrieve information that aligns with a specific query. It is particularly useful for tasks requiring precise information extraction from large or complex document sets, such as research, data analysis, or verifying factual details.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            2
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_10",
+          "description": "This tool searches a predefined collection of documents to locate information that matches the provided query. It is designed for tasks where users need to find specific details or references within a document repository, such as research, verification, or information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            2
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_11",
+          "description": "This tool enables users to search through a predefined collection of documents to identify information that aligns with a given query. It is particularly useful for tasks involving research, fact-checking, or extracting specific details from a repository of documents. The tool focuses on retrieving relevant content based on the query's intent and scope.",
+          "attempts": 9,
+          "selected": 8,
+          "not_selected": 1,
+          "selection_rate": 0.8888888888888888,
+          "blocks_seen": [
+            2,
+            3
+          ],
+          "longest_success_streak": 8,
+          "confidence": "low"
+        },
+        {
+          "id": "description_12",
+          "description": "This tool facilitates searching within a predefined document collection to locate information relevant to a specific query. It is ideal for tasks such as research, data extraction, or verifying facts, where users need to pinpoint specific details or insights from a repository of documents. The tool focuses on retrieving content that matches the query's intent and scope, ensuring relevance and precision in the results.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            3
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_13",
+          "description": "This tool searches a predefined collection of documents to find information relevant to a given query. It is useful for tasks where users need to locate specific details or content from a repository, such as research, fact-checking, or data extraction.",
+          "attempts": 4,
+          "selected": 3,
+          "not_selected": 1,
+          "selection_rate": 0.75,
+          "blocks_seen": [
+            3
+          ],
+          "longest_success_streak": 3,
+          "confidence": "low"
+        },
+        {
+          "id": "description_14",
+          "description": "This tool searches a predefined collection of documents to retrieve information that matches a specific query. It is particularly useful for tasks requiring precise information retrieval from a repository, such as research, fact-checking, or extracting specific data points from documents.",
+          "attempts": 1,
+          "selected": 1,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            3
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_15",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as research, fact-checking, or extracting specific details from a repository of documents. The tool focuses on retrieving content that aligns with the query's intent and scope, ensuring relevance and precision in the results.",
+          "attempts": 30,
+          "selected": 18,
+          "not_selected": 12,
+          "selection_rate": 0.6,
+          "blocks_seen": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "longest_success_streak": 6,
+          "confidence": "high"
+        },
+        {
+          "id": "description_16",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is useful for tasks such as research, fact-checking, or extracting details from a document repository. The tool aims to align the retrieved content with the query's intent and scope, focusing on relevance in the results.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            4
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_17",
+          "description": "This tool performs searches within a predefined collection of documents to identify and retrieve information that aligns with a given query. It is particularly useful for tasks such as locating specific details, conducting research, or verifying facts within a document repository. The tool prioritizes relevance, ensuring that the results closely match the query's intent and scope.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            4
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_18",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is designed to assist in tasks such as finding specific details, conducting research, or verifying facts within a document repository. The tool focuses on identifying content that aligns closely with the query's intent and scope, ensuring relevance in the results.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            4
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_19",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is useful for tasks such as locating specific details, conducting research, or verifying facts within a document repository. The tool identifies content that aligns with the query's intent and scope, focusing on relevance in the results.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            4
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_20",
+          "description": "This tool searches a predefined collection of documents to identify and retrieve information that aligns with a specific query. It is particularly useful for tasks such as locating specific details, conducting research, or verifying facts within a document repository. The tool focuses on relevance, ensuring that the retrieved content matches the query's intent and scope.",
+          "attempts": 3,
+          "selected": 2,
+          "not_selected": 1,
+          "selection_rate": 0.6666666666666666,
+          "blocks_seen": [
+            4
+          ],
+          "longest_success_streak": 2,
+          "confidence": "low"
+        },
+        {
+          "id": "description_21",
+          "description": "This tool enables users to search through a predefined collection of documents to find information that aligns with a specific query. It is designed for tasks such as locating relevant facts, conducting research, or extracting detailed information from a document repository. The tool prioritizes retrieving content that matches the query's intent and scope, ensuring the results are both relevant and precise.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            5
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_22",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a given query. It is useful for tasks requiring targeted information retrieval, such as research, fact-finding, or extracting specific details from a document repository. The tool focuses on matching the query's intent and scope to deliver precise and pertinent results.",
+          "attempts": 1,
+          "selected": 1,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            5
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_23",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is designed to assist in tasks such as research, fact-checking, or extracting specific details from a repository of documents. The tool emphasizes retrieving content that aligns with the query's intent and scope, ensuring relevance and precision in the results.",
+          "attempts": 6,
+          "selected": 5,
+          "not_selected": 1,
+          "selection_rate": 0.8333333333333334,
+          "blocks_seen": [
+            6
+          ],
+          "longest_success_streak": 5,
+          "confidence": "low"
+        },
+        {
+          "id": "description_24",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is useful for tasks requiring access to information stored within a document repository, such as locating specific details or identifying documents that pertain to a particular topic.",
+          "attempts": 1,
+          "selected": 1,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            6
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_25",
+          "description": "This tool searches through a predefined collection of documents to locate information that matches a given query. It is designed to assist in tasks such as research, fact-checking, or extracting specific details from a repository of documents. The tool prioritizes retrieving content that is directly relevant to the query's intent and scope, ensuring that the results are precise and aligned with the user's needs.",
+          "attempts": 3,
+          "selected": 2,
+          "not_selected": 1,
+          "selection_rate": 0.6666666666666666,
+          "blocks_seen": [
+            7
+          ],
+          "longest_success_streak": 2,
+          "confidence": "low"
+        },
+        {
+          "id": "description_26",
+          "description": "This tool enables searching within a predefined collection of documents to identify information relevant to a specific query. It is particularly useful for tasks such as research, fact-checking, or retrieving specific details from a document repository. The tool focuses on delivering precise results that align with the query's intent and scope, ensuring relevance to the user's needs.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            7
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_27",
+          "description": "This tool searches a predefined collection of documents to locate information relevant to a given query. It is useful for tasks requiring access to specific details, research, or verification of facts within a structured document repository. The tool ensures that the results align with the query's intent, providing focused and pertinent information.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            7
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_28",
+          "description": "This tool enables users to search through a predefined collection of documents to find information that matches a specific query. It is particularly useful for tasks that involve retrieving detailed data, conducting research, or verifying facts within a structured document set. The tool focuses on delivering results that are directly relevant to the query's intent, ensuring precision and applicability.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            7
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_29",
+          "description": "This tool allows users to search a predefined collection of documents to locate information that aligns with a specific query. It is designed for tasks requiring the retrieval of detailed data, research assistance, or fact verification within a structured document repository. The tool emphasizes delivering results that are directly pertinent to the query's intent, ensuring relevance and precision.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            7
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_30",
+          "description": "This tool enables users to search a predefined collection of documents to find information relevant to a specific query. It is useful for tasks that involve retrieving details from a structured document repository, such as research assistance or locating specific facts.",
+          "attempts": 2,
+          "selected": 2,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            7
+          ],
+          "longest_success_streak": 2,
+          "confidence": "low"
+        },
+        {
+          "id": "description_31",
+          "description": "This tool enables searching within a predefined collection of documents to locate information that aligns with a specific query. It is designed to assist in tasks such as research, fact-checking, or extracting targeted details from a document repository. The tool prioritizes retrieving content that matches the query's intent and scope, ensuring relevance and precision in the results.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            8
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_32",
+          "description": "This tool searches a predefined collection of documents to find information that matches the provided query. It is useful for tasks like retrieving specific details, conducting research, or verifying facts within a document repository. The tool focuses on delivering relevant results that align with the query's intent.",
+          "attempts": 3,
+          "selected": 2,
+          "not_selected": 1,
+          "selection_rate": 0.6666666666666666,
+          "blocks_seen": [
+            8
+          ],
+          "longest_success_streak": 2,
+          "confidence": "low"
+        },
+        {
+          "id": "description_33",
+          "description": "This tool enables searching within a predefined collection of documents to locate information that aligns with the provided query. It is particularly useful for tasks such as extracting specific details, conducting thorough research, or verifying facts across a repository of documents. The tool aims to return results that are directly relevant to the query's intent and scope.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            8
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_34",
+          "description": "This tool facilitates the search of a predefined document collection to find information that matches the supplied query. It is designed to assist in tasks such as retrieving specific details, conducting in-depth research, or verifying facts across a repository of documents. The tool focuses on returning results that are directly relevant to the query's intent and scope, making it a valuable resource for information retrieval within a document-based context.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            8
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_35",
+          "description": "This tool searches a predefined collection of documents to locate information relevant to the supplied query. It is useful for tasks such as retrieving specific details, conducting research, or verifying facts within a document repository. The tool focuses on identifying content that aligns with the query's intent and scope, aiding in information retrieval from document-based sources.",
+          "attempts": 2,
+          "selected": 2,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            8
+          ],
+          "longest_success_streak": 2,
+          "confidence": "low"
+        },
+        {
+          "id": "description_36",
+          "description": "This tool enables users to search through a predefined collection of documents to locate information that aligns with a specific query. It is designed to assist in tasks such as retrieving relevant data, supporting research efforts, or identifying specific details within a document repository. The tool prioritizes relevance and precision, ensuring that the results returned are closely tied to the query's intent and scope.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            9
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_37",
+          "description": "This tool allows users to search a predefined collection of documents to find information relevant to a specific query. It is useful for tasks such as retrieving data, conducting research, or locating specific details within a document repository. The tool focuses on delivering results that are closely aligned with the query's intent and scope.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            9
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_38",
+          "description": "This tool enables users to search a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as research, data retrieval, or locating specific details within a document repository. The tool is designed to return results that align closely with the query's intent and scope, ensuring relevance and precision in the search process.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            9
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_39",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is useful for tasks such as locating specific details, conducting research, or extracting data from a document repository. The tool aims to return results that match the query's intent and scope, ensuring relevance and precision in the search process.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            9
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_40",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is useful for tasks such as locating specific details, conducting research, or extracting data from a document repository. The tool returns results based on the query's relevance to the document collection.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            9
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_41",
+          "description": "This tool searches a predefined collection of documents to identify and retrieve information relevant to a specific query. It is particularly useful when users need to locate specific details, conduct targeted research, or extract data from a structured document repository. The tool evaluates the relevance of the query to the document collection and returns results accordingly.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            9
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_42",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is useful for tasks such as locating specific details, conducting research, or verifying information within a document repository. The tool focuses on identifying content that aligns with the query's intent and scope.",
+          "attempts": 3,
+          "selected": 3,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            10
+          ],
+          "longest_success_streak": 3,
+          "confidence": "low"
+        },
+        {
+          "id": "description_43",
+          "description": "This tool searches a predefined collection of documents to locate information relevant to a specific query. It is particularly useful for tasks requiring detailed retrieval of content, such as research, fact-checking, or extracting precise information from a document repository. The tool ensures that the results align closely with the query's intent and scope, providing relevant and targeted information.",
+          "attempts": 7,
+          "selected": 7,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            11
+          ],
+          "longest_success_streak": 7,
+          "confidence": "low"
+        },
+        {
+          "id": "description_44",
+          "description": "This tool enables users to search through a predefined collection of documents to find information that aligns with a specific query. It is particularly valuable for tasks such as research, fact verification, or locating specific details within a repository of documents. The tool emphasizes retrieving content that is directly relevant to the query's intent and scope, ensuring precision and utility in the results.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            12
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_45",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is useful for tasks like research or locating specific details within a document repository. The tool focuses on identifying content that aligns with the query's intent and scope.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            12
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_46",
+          "description": "This tool performs searches within a predefined collection of documents to find information that matches a given query. It is particularly useful for tasks requiring detailed research or the extraction of specific information from a document repository. The tool aims to identify content that closely aligns with the query's intent and scope, ensuring relevance in the retrieved results.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            12
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_47",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is designed to assist in tasks that require locating precise details or conducting comprehensive research within a document repository. The tool focuses on identifying content that aligns closely with the query's intent, ensuring the results are pertinent and useful.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            12
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_48",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks requiring precise details or comprehensive research within a document repository. The tool identifies content that aligns closely with the query's intent, ensuring the results are pertinent and useful.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            12
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_49",
+          "description": "This tool enables users to search through a predefined collection of documents to find information that matches a specific query. It is designed to assist in locating precise details or conducting thorough research within a document repository. The tool evaluates the query and retrieves content that aligns closely with the user's intent, ensuring the results are relevant and useful for the task at hand.",
+          "attempts": 1,
+          "selected": 1,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            12
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_50",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is especially valuable for tasks like research, fact-checking, or locating specific details within a document repository. The tool emphasizes identifying content that aligns with the query's intent, ensuring the results are both relevant and precise.",
+          "attempts": 39,
+          "selected": 36,
+          "not_selected": 3,
+          "selection_rate": 0.9230769230769231,
+          "blocks_seen": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "longest_success_streak": 14,
+          "confidence": "high"
+        },
+        {
+          "id": "description_51",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as research, fact-checking, or locating specific details within a document repository. The tool focuses on identifying content that aligns with the query's intent, ensuring the results are both relevant and precise.",
+          "attempts": 16,
+          "selected": 11,
+          "not_selected": 5,
+          "selection_rate": 0.6875,
+          "blocks_seen": [
+            14,
+            18,
+            19,
+            20
+          ],
+          "longest_success_streak": 6,
+          "confidence": "moderate"
+        },
+        {
+          "id": "description_52",
+          "description": "This tool searches through a predefined collection of documents to identify and retrieve information that aligns with a given query. It is designed to assist in tasks such as locating specific details, conducting research, or verifying facts within a document repository. The tool emphasizes relevance and precision in its search results, making it particularly useful for focused information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            14
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_53",
+          "description": "This tool searches through a predefined collection of documents to identify and retrieve information that aligns with a given query. It is designed to assist in tasks such as locating specific details, conducting research, or verifying facts within a document repository. The tool is particularly useful for focused information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            14
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_54",
+          "description": "This tool searches through a predefined collection of documents to locate information relevant to a specific query. It is designed to assist in tasks such as finding specific details, conducting targeted research, or verifying facts within a document repository. The tool is particularly useful when precise information retrieval is needed from a structured or indexed document collection.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            14
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_55",
+          "description": "This tool searches through a predefined collection of documents to locate information relevant to a specific query. It is designed to assist in tasks such as finding specific details or conducting targeted research within a document repository. The tool is particularly useful when precise information retrieval is needed from a structured or indexed document collection.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            14
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_56",
+          "description": "This tool enables searching within a predefined document collection to identify information pertinent to a given query. It is particularly effective for tasks requiring precise retrieval of specific details or targeted research within a structured or indexed repository. The tool is best utilized when there is a need to locate exact information within a well-organized set of documents.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            14
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_57",
+          "description": "This tool facilitates the search of a predefined document collection to retrieve information relevant to a specific query. It is particularly useful when precise information needs to be extracted from a structured or indexed repository. The tool is most effective for tasks requiring targeted retrieval of details within a well-organized set of documents.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            14
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_58",
+          "description": "This tool enables searching within a predefined collection of documents to identify and retrieve information that aligns with a specific query. It is particularly valuable when users need to locate precise details or data within an organized or indexed set of documents. The tool excels in scenarios where targeted extraction of relevant content from structured repositories is required.",
+          "attempts": 1,
+          "selected": 1,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            14
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_59",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is useful for tasks such as research, fact-checking, or locating specific details within a document repository. The tool focuses on identifying content that aligns with the query's intent to ensure relevance.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            16
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_60",
+          "description": "This tool enables searching within a predefined document collection to retrieve information that aligns with a given query. It is particularly useful for tasks requiring precise information retrieval, such as academic research, verifying facts, or extracting specific details from a repository. The tool emphasizes relevance by focusing on content that directly matches the query's intent.",
+          "attempts": 4,
+          "selected": 4,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            16
+          ],
+          "longest_success_streak": 4,
+          "confidence": "low"
+        },
+        {
+          "id": "description_61",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is useful for tasks such as research, fact-checking, or locating specific details within a document repository.",
+          "attempts": 3,
+          "selected": 3,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            19
+          ],
+          "longest_success_streak": 3,
+          "confidence": "low"
+        },
+        {
+          "id": "description_62",
+          "description": "This tool enables users to search through a predefined collection of documents to find information that aligns with a specific query. It is designed to assist in tasks such as locating specific details, conducting research, or verifying facts within a document repository. The tool prioritizes retrieving content that is directly relevant to the query, ensuring precise and meaningful results.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            20
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_63",
+          "description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as locating specific details, conducting research, or verifying facts within a document repository. The tool focuses on delivering precise and meaningful results by prioritizing content that directly aligns with the query.",
+          "attempts": 5,
+          "selected": 4,
+          "not_selected": 1,
+          "selection_rate": 0.8,
+          "blocks_seen": [
+            20
+          ],
+          "longest_success_streak": 4,
+          "confidence": "low"
+        },
+        {
+          "id": "description_64",
+          "description": "This tool enables searching within a predefined collection of documents to find information that matches a given query. It is designed to assist in tasks such as extracting specific details, conducting thorough research, or verifying facts within a document repository. The tool emphasizes precision by retrieving content that directly corresponds to the query, ensuring relevance and utility in the results.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            20
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_65",
+          "description": "This tool searches a predefined collection of documents for information relevant to a supplied query. It is useful for retrieving specific details or verifying facts within a document repository. The tool focuses on matching content to the query to ensure relevance in the results.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            20
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_66",
+          "description": "This tool performs searches within a predefined collection of documents to locate information that aligns with a provided query. It is particularly useful for extracting specific details, verifying facts, or identifying relevant content within a document repository. The tool emphasizes matching the query to the document content to ensure the results are pertinent and useful.",
+          "attempts": 1,
+          "selected": 1,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            20
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        }
+      ],
+      "revision_evidence": [
+        {
+          "failed_description_id": "description_1",
+          "revised_description_id": "description_2",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_2",
+          "revised_description_id": "description_3",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_3",
+          "revised_description_id": "description_4",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_4",
+          "revised_description_id": "description_5",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_5",
+          "revised_description_id": "description_6",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_6",
+          "revised_description_id": "description_7",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_7",
+          "revised_description_id": "description_8",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_7",
+          "revised_description_id": "description_9",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_9",
+          "revised_description_id": "description_10",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_10",
+          "revised_description_id": "description_11",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_11",
+          "revised_description_id": "description_12",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_12",
+          "revised_description_id": "description_13",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_13",
+          "revised_description_id": "description_14",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_15",
+          "revised_description_id": "description_16",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_16",
+          "revised_description_id": "description_17",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_17",
+          "revised_description_id": "description_18",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_18",
+          "revised_description_id": "description_19",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_19",
+          "revised_description_id": "description_20",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_15",
+          "revised_description_id": "description_21",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_21",
+          "revised_description_id": "description_22",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_15",
+          "revised_description_id": "description_23",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_23",
+          "revised_description_id": "description_24",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_15",
+          "revised_description_id": "description_25",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_25",
+          "revised_description_id": "description_26",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_26",
+          "revised_description_id": "description_27",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_27",
+          "revised_description_id": "description_28",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_28",
+          "revised_description_id": "description_29",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_29",
+          "revised_description_id": "description_30",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_15",
+          "revised_description_id": "description_31",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_31",
+          "revised_description_id": "description_32",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_32",
+          "revised_description_id": "description_33",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_33",
+          "revised_description_id": "description_34",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_34",
+          "revised_description_id": "description_35",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_15",
+          "revised_description_id": "description_36",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_36",
+          "revised_description_id": "description_37",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_37",
+          "revised_description_id": "description_38",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_38",
+          "revised_description_id": "description_39",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_39",
+          "revised_description_id": "description_40",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_40",
+          "revised_description_id": "description_41",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_15",
+          "revised_description_id": "description_42",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_15",
+          "revised_description_id": "description_43",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_15",
+          "revised_description_id": "description_44",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_44",
+          "revised_description_id": "description_45",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_45",
+          "revised_description_id": "description_46",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_46",
+          "revised_description_id": "description_47",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_47",
+          "revised_description_id": "description_48",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_48",
+          "revised_description_id": "description_49",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_15",
+          "revised_description_id": "description_50",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_50",
+          "revised_description_id": "description_51",
+          "observations": 2,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 0.5
+        },
+        {
+          "failed_description_id": "description_51",
+          "revised_description_id": "description_52",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_52",
+          "revised_description_id": "description_53",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_53",
+          "revised_description_id": "description_54",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_54",
+          "revised_description_id": "description_55",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_55",
+          "revised_description_id": "description_56",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_56",
+          "revised_description_id": "description_57",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_57",
+          "revised_description_id": "description_58",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_50",
+          "revised_description_id": "description_59",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_59",
+          "revised_description_id": "description_60",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_51",
+          "revised_description_id": "description_61",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_51",
+          "revised_description_id": "description_62",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_62",
+          "revised_description_id": "description_63",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_63",
+          "revised_description_id": "description_64",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_64",
+          "revised_description_id": "description_65",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_65",
+          "revised_description_id": "description_66",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        }
+      ]
+    },
+    "derived_assessment": {
+      "baseline_selection_rate": 0.64,
+      "supported_descriptions": [
+        {
+          "description_id": "description_11",
+          "selected": 8,
+          "attempts": 9,
+          "selection_rate": 0.8888888888888888,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_23",
+          "selected": 5,
+          "attempts": 6,
+          "selection_rate": 0.8333333333333334,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_43",
+          "selected": 7,
+          "attempts": 7,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_50",
+          "selected": 36,
+          "attempts": 39,
+          "selection_rate": 0.9230769230769231,
+          "confidence": "high"
+        },
+        {
+          "description_id": "description_63",
+          "selected": 4,
+          "attempts": 5,
+          "selection_rate": 0.8,
+          "confidence": "low"
+        }
+      ],
+      "failed_descriptions": [],
+      "uncertain_descriptions": [
+        {
+          "description_id": "description_1",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_2",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_3",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_4",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_5",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_6",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_7",
+          "selected": 0,
+          "attempts": 2,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_8",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_9",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_10",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_12",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_13",
+          "selected": 3,
+          "attempts": 4,
+          "selection_rate": 0.75,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_14",
+          "selected": 1,
+          "attempts": 1,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_15",
+          "selected": 18,
+          "attempts": 30,
+          "selection_rate": 0.6,
+          "confidence": "high"
+        },
+        {
+          "description_id": "description_16",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_17",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_18",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_19",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_20",
+          "selected": 2,
+          "attempts": 3,
+          "selection_rate": 0.6666666666666666,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_21",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_22",
+          "selected": 1,
+          "attempts": 1,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_24",
+          "selected": 1,
+          "attempts": 1,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_25",
+          "selected": 2,
+          "attempts": 3,
+          "selection_rate": 0.6666666666666666,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_26",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_27",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_28",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_29",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_30",
+          "selected": 2,
+          "attempts": 2,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_31",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_32",
+          "selected": 2,
+          "attempts": 3,
+          "selection_rate": 0.6666666666666666,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_33",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_34",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_35",
+          "selected": 2,
+          "attempts": 2,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_36",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_37",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_38",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_39",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_40",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_41",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_42",
+          "selected": 3,
+          "attempts": 3,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_44",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_45",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_46",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_47",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_48",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_49",
+          "selected": 1,
+          "attempts": 1,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_51",
+          "selected": 11,
+          "attempts": 16,
+          "selection_rate": 0.6875,
+          "confidence": "moderate"
+        },
+        {
+          "description_id": "description_52",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_53",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_54",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_55",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_56",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_57",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_58",
+          "selected": 1,
+          "attempts": 1,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_59",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_60",
+          "selected": 4,
+          "attempts": 4,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_61",
+          "selected": 3,
+          "attempts": 3,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_62",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_64",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_65",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_66",
+          "selected": 1,
+          "attempts": 1,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        }
+      ],
+      "classification_rule": "At least 5 attempts and selection rate at least 0.10 above or below the overall training rate. All other descriptions are uncertain."
+    },
+    "block_inferences": [
+      {
+        "block": 1,
+        "descriptions_actually_used": [
+          "description_1",
+          "description_2",
+          "description_3",
+          "description_4",
+          "description_5",
+          "description_6",
+          "description_7",
+          "description_8"
+        ],
+        "observed_selected": 2,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.2,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to locate information relevant to a given query. It is designed to assist in extracting specific details or sections from large document repositories, making it valuable for tasks such as research, information retrieval, and fact-checking.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Use concise and specific queries to improve the accuracy of document retrieval. Avoid: Overloading the query with unnecessary details or ambiguity, as this can reduce the tool's effectiveness in locating relevant information.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 2,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_9",
+          "description_10",
+          "description_11"
+        ],
+        "observed_selected": 7,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.7,
+        "next_synthesized_description": "This tool enables users to search through a predefined collection of documents to identify information that aligns with a given query. It is particularly useful for tasks involving research, fact-checking, or extracting specific details from a repository of documents. The tool focuses on retrieving relevant content based on the query's intent and scope.",
+        "next_synthesized_description_id": "description_11",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 3,
+        "descriptions_actually_used": [
+          "description_11",
+          "description_12",
+          "description_13",
+          "description_14"
+        ],
+        "observed_selected": 7,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.7,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as research, fact-checking, or extracting specific details from a repository of documents. The tool focuses on retrieving content that aligns with the query's intent and scope, ensuring relevance and precision in the results.",
+        "next_synthesized_description_id": "description_15",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 4,
+        "descriptions_actually_used": [
+          "description_15",
+          "description_16",
+          "description_17",
+          "description_18",
+          "description_19",
+          "description_20"
+        ],
+        "observed_selected": 4,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.4,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as research, fact-checking, or extracting specific details from a repository of documents. The tool focuses on retrieving content that aligns with the query's intent and scope, ensuring relevance and precision in the results.",
+        "next_synthesized_description_id": "description_15",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 5,
+        "descriptions_actually_used": [
+          "description_15",
+          "description_21",
+          "description_22"
+        ],
+        "observed_selected": 8,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.8,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as research, fact-checking, or extracting specific details from a repository of documents. The tool focuses on retrieving content that aligns with the query's intent and scope, ensuring relevance and precision in the results.",
+        "next_synthesized_description_id": "description_15",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 6,
+        "descriptions_actually_used": [
+          "description_15",
+          "description_23",
+          "description_24"
+        ],
+        "observed_selected": 8,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.8,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as research, fact-checking, or extracting specific details from a repository of documents. The tool focuses on retrieving content that aligns with the query's intent and scope, ensuring relevance and precision in the results.",
+        "next_synthesized_description_id": "description_15",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 7,
+        "descriptions_actually_used": [
+          "description_15",
+          "description_25",
+          "description_26",
+          "description_27",
+          "description_28",
+          "description_29",
+          "description_30"
+        ],
+        "observed_selected": 4,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.4,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as research, fact-checking, or extracting specific details from a repository of documents. The tool focuses on retrieving content that aligns with the query's intent and scope, ensuring relevance and precision in the results.",
+        "next_synthesized_description_id": "description_15",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 8,
+        "descriptions_actually_used": [
+          "description_15",
+          "description_31",
+          "description_32",
+          "description_33",
+          "description_34",
+          "description_35"
+        ],
+        "observed_selected": 5,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.5,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as research, fact-checking, or extracting specific details from a repository of documents. The tool focuses on retrieving content that aligns with the query's intent and scope, ensuring relevance and precision in the results.",
+        "next_synthesized_description_id": "description_15",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 9,
+        "descriptions_actually_used": [
+          "description_15",
+          "description_36",
+          "description_37",
+          "description_38",
+          "description_39",
+          "description_40",
+          "description_41"
+        ],
+        "observed_selected": 2,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.2,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as research, fact-checking, or extracting specific details from a repository of documents. The tool focuses on retrieving content that aligns with the query's intent and scope, ensuring relevance and precision in the results.",
+        "next_synthesized_description_id": "description_15",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 10,
+        "descriptions_actually_used": [
+          "description_15",
+          "description_42"
+        ],
+        "observed_selected": 8,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.8,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as research, fact-checking, or extracting specific details from a repository of documents. The tool focuses on retrieving content that aligns with the query's intent and scope, ensuring relevance and precision in the results.",
+        "next_synthesized_description_id": "description_15",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 11,
+        "descriptions_actually_used": [
+          "description_15",
+          "description_43"
+        ],
+        "observed_selected": 9,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.9,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as research, fact-checking, or extracting specific details from a repository of documents. The tool focuses on retrieving content that aligns with the query's intent and scope, ensuring relevance and precision in the results.",
+        "next_synthesized_description_id": "description_15",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 12,
+        "descriptions_actually_used": [
+          "description_15",
+          "description_44",
+          "description_45",
+          "description_46",
+          "description_47",
+          "description_48",
+          "description_49"
+        ],
+        "observed_selected": 4,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.4,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as research, fact-checking, or extracting specific details from a repository of documents. The tool focuses on retrieving content that aligns with the query's intent and scope, ensuring relevance and precision in the results.",
+        "next_synthesized_description_id": "description_15",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 13,
+        "descriptions_actually_used": [
+          "description_15",
+          "description_50"
+        ],
+        "observed_selected": 9,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.9,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is especially valuable for tasks like research, fact-checking, or locating specific details within a document repository. The tool emphasizes identifying content that aligns with the query's intent, ensuring the results are both relevant and precise.",
+        "next_synthesized_description_id": "description_50",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 14,
+        "descriptions_actually_used": [
+          "description_50",
+          "description_51",
+          "description_52",
+          "description_53",
+          "description_54",
+          "description_55",
+          "description_56",
+          "description_57",
+          "description_58"
+        ],
+        "observed_selected": 2,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.2,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is especially valuable for tasks like research, fact-checking, or locating specific details within a document repository. The tool emphasizes identifying content that aligns with the query's intent, ensuring the results are both relevant and precise.",
+        "next_synthesized_description_id": "description_50",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 15,
+        "descriptions_actually_used": [
+          "description_50"
+        ],
+        "observed_selected": 10,
+        "observed_trials": 10,
+        "observed_selection_rate": 1.0,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is especially valuable for tasks like research, fact-checking, or locating specific details within a document repository. The tool emphasizes identifying content that aligns with the query's intent, ensuring the results are both relevant and precise.",
+        "next_synthesized_description_id": "description_50",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 16,
+        "descriptions_actually_used": [
+          "description_50",
+          "description_59",
+          "description_60"
+        ],
+        "observed_selected": 8,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.8,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is especially valuable for tasks like research, fact-checking, or locating specific details within a document repository. The tool emphasizes identifying content that aligns with the query's intent, ensuring the results are both relevant and precise.",
+        "next_synthesized_description_id": "description_50",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 17,
+        "descriptions_actually_used": [
+          "description_50"
+        ],
+        "observed_selected": 10,
+        "observed_trials": 10,
+        "observed_selection_rate": 1.0,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is especially valuable for tasks like research, fact-checking, or locating specific details within a document repository. The tool emphasizes identifying content that aligns with the query's intent, ensuring the results are both relevant and precise.",
+        "next_synthesized_description_id": "description_50",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 18,
+        "descriptions_actually_used": [
+          "description_50",
+          "description_51"
+        ],
+        "observed_selected": 7,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.7,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as research, fact-checking, or locating specific details within a document repository. The tool focuses on identifying content that aligns closely with the query's intent, ensuring the results are both relevant and precise.",
+        "next_synthesized_description_id": "description_51",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 19,
+        "descriptions_actually_used": [
+          "description_51",
+          "description_61"
+        ],
+        "observed_selected": 9,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.9,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as research, fact-checking, or locating specific details within a document repository. The tool focuses on identifying content that aligns closely with the query's intent, ensuring the results are both relevant and precise.",
+        "next_synthesized_description_id": "description_51",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 20,
+        "descriptions_actually_used": [
+          "description_51",
+          "description_62",
+          "description_63",
+          "description_64",
+          "description_65",
+          "description_66"
+        ],
+        "observed_selected": 5,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.5,
+        "next_synthesized_description": "This tool searches a predefined collection of documents to retrieve information relevant to a specific query. It is particularly useful for tasks such as research, fact-checking, or locating specific details within a document repository. The tool focuses on identifying content that aligns closely with the query's intent, ensuring the results are both relevant and precise.",
+        "next_synthesized_description_id": "description_51",
+        "model_inferred_lesson": "Good to do: Use queries that clearly define the intent and scope of the information needed to enhance retrieval accuracy. Avoid: Vague or overly broad queries, as they can lead to less relevant results and reduce the tool's effectiveness.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      }
+    ]
+  }
+}

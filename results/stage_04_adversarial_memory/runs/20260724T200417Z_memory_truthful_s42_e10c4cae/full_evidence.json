@@ -1,0 +1,1007 @@
+{
+  "evaluation_mode": "memory_trained",
+  "truthfulness_policy": "truthful",
+  "full_training_evidence": {
+    "memory_version": 1,
+    "training_summary": {
+      "trials": 200,
+      "selections": 84,
+      "selection_rate": 0.42,
+      "query_blocks": 20
+    },
+    "current_state": {
+      "description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+      "description_id": "description_7",
+      "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding."
+    },
+    "observed_evidence": {
+      "description_evidence": [
+        {
+          "id": "description_1",
+          "description": "This tool searches a collection of documents to find information that is pertinent to a given query.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_2",
+          "description": "This tool is designed to search through a collection of documents to identify information that is relevant to a specific query. It is particularly useful when you need to extract pertinent details from a large set of documents.",
+          "attempts": 4,
+          "selected": 0,
+          "not_selected": 4,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_3",
+          "description": "This tool is intended for searching a collection of documents to find information that pertains to a given query. It is especially beneficial when you need to retrieve relevant details from a substantial number of documents.",
+          "attempts": 4,
+          "selected": 0,
+          "not_selected": 4,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_4",
+          "description": "This tool searches a collection of documents to find information that is relevant to a supplied query. It is particularly useful for extracting pertinent details from a large set of documents.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            2
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_5",
+          "description": "This tool is designed to search through a collection of documents to identify information that is relevant to a given query. It is especially beneficial for retrieving specific details from extensive document sets.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            2
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_6",
+          "description": "This tool is intended for searching a collection of documents to find information pertinent to a specified query. It is particularly useful for extracting specific details from large sets of documents.",
+          "attempts": 7,
+          "selected": 7,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            2
+          ],
+          "longest_success_streak": 7,
+          "confidence": "low"
+        },
+        {
+          "id": "description_7",
+          "description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+          "attempts": 25,
+          "selected": 7,
+          "not_selected": 18,
+          "selection_rate": 0.28,
+          "blocks_seen": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "longest_success_streak": 1,
+          "confidence": "high"
+        },
+        {
+          "id": "description_8",
+          "description": "This tool enables users to search through a collection of documents to locate information pertinent to a given query. It is especially beneficial for identifying specific details within large sets of documents.",
+          "attempts": 19,
+          "selected": 11,
+          "not_selected": 8,
+          "selection_rate": 0.5789473684210527,
+          "blocks_seen": [
+            3,
+            6,
+            9,
+            11,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "longest_success_streak": 8,
+          "confidence": "moderate"
+        },
+        {
+          "id": "description_9",
+          "description": "This tool allows users to search a collection of documents to find information that is relevant to a specific query. It is particularly useful for extracting detailed information from extensive document sets.",
+          "attempts": 53,
+          "selected": 25,
+          "not_selected": 28,
+          "selection_rate": 0.4716981132075472,
+          "blocks_seen": [
+            3,
+            5,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            19,
+            20
+          ],
+          "longest_success_streak": 7,
+          "confidence": "high"
+        },
+        {
+          "id": "description_10",
+          "description": "This tool enables users to search through a collection of documents to locate information pertinent to a specific query. It is especially beneficial for retrieving detailed insights from large sets of documents.",
+          "attempts": 28,
+          "selected": 13,
+          "not_selected": 15,
+          "selection_rate": 0.4642857142857143,
+          "blocks_seen": [
+            3,
+            5,
+            9,
+            11,
+            14,
+            15,
+            16,
+            17,
+            20
+          ],
+          "longest_success_streak": 7,
+          "confidence": "high"
+        },
+        {
+          "id": "description_11",
+          "description": "This tool performs searches within a collection of documents to identify information that pertains to a given query. It is especially beneficial for retrieving specific information from large sets of documents.",
+          "attempts": 3,
+          "selected": 1,
+          "not_selected": 2,
+          "selection_rate": 0.3333333333333333,
+          "blocks_seen": [
+            4,
+            8
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_12",
+          "description": "This tool enables users to search through a collection of documents to find information that is relevant to a specific query. It is particularly useful for extracting targeted information from extensive document sets.",
+          "attempts": 4,
+          "selected": 0,
+          "not_selected": 4,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            4
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_13",
+          "description": "This tool allows users to search a collection of documents to locate information pertinent to a specific query. It is especially beneficial for retrieving focused information from large sets of documents.",
+          "attempts": 3,
+          "selected": 0,
+          "not_selected": 3,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            4
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_14",
+          "description": "This tool enables users to search through a collection of documents to locate information pertinent to a given query. It is especially beneficial for retrieving specific details from large sets of documents.",
+          "attempts": 14,
+          "selected": 6,
+          "not_selected": 8,
+          "selection_rate": 0.42857142857142855,
+          "blocks_seen": [
+            5,
+            7,
+            18,
+            20
+          ],
+          "longest_success_streak": 3,
+          "confidence": "moderate"
+        },
+        {
+          "id": "description_15",
+          "description": "This tool allows users to search a collection of documents to find information that is relevant to a specific query. It is particularly useful for extracting precise details from extensive document sets.",
+          "attempts": 6,
+          "selected": 0,
+          "not_selected": 6,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            7,
+            18
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_16",
+          "description": "This tool enables users to search through a collection of documents to find information that is relevant to a specified query. It is particularly useful for extracting specific details from extensive document sets.",
+          "attempts": 3,
+          "selected": 1,
+          "not_selected": 2,
+          "selection_rate": 0.3333333333333333,
+          "blocks_seen": [
+            8
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_17",
+          "description": "This tool allows users to search a collection of documents for information that pertains to a given query. It is especially beneficial for locating specific information within large sets of documents.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            8
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_18",
+          "description": "This tool allows users to search a collection of documents for information pertinent to a given query. It is especially beneficial for locating specific details within large sets of documents.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            8
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_19",
+          "description": "This tool enables users to search through a collection of documents to find information that is relevant to a specific query. It is particularly useful for identifying particular details within extensive document sets.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            8
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_20",
+          "description": "This tool enables users to search through a collection of documents to locate information pertinent to a given query. It is especially beneficial for retrieving specific information from large sets of documents.",
+          "attempts": 6,
+          "selected": 3,
+          "not_selected": 3,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            10,
+            12,
+            19
+          ],
+          "longest_success_streak": 2,
+          "confidence": "low"
+        },
+        {
+          "id": "description_21",
+          "description": "This tool enables users to search through a collection of documents to locate information pertinent to a specific query. It is especially beneficial for retrieving focused information from large sets of documents.",
+          "attempts": 12,
+          "selected": 7,
+          "not_selected": 5,
+          "selection_rate": 0.5833333333333334,
+          "blocks_seen": [
+            10,
+            12,
+            19
+          ],
+          "longest_success_streak": 4,
+          "confidence": "moderate"
+        }
+      ],
+      "revision_evidence": [
+        {
+          "failed_description_id": "description_1",
+          "revised_description_id": "description_2",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_2",
+          "revised_description_id": "description_3",
+          "observations": 4,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_3",
+          "revised_description_id": "description_2",
+          "observations": 3,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_4",
+          "revised_description_id": "description_5",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_5",
+          "revised_description_id": "description_6",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_7",
+          "revised_description_id": "description_8",
+          "observations": 9,
+          "revised_description_selected": 3,
+          "revised_selection_rate": 0.3333333333333333
+        },
+        {
+          "failed_description_id": "description_8",
+          "revised_description_id": "description_9",
+          "observations": 8,
+          "revised_description_selected": 2,
+          "revised_selection_rate": 0.25
+        },
+        {
+          "failed_description_id": "description_9",
+          "revised_description_id": "description_10",
+          "observations": 19,
+          "revised_description_selected": 6,
+          "revised_selection_rate": 0.3157894736842105
+        },
+        {
+          "failed_description_id": "description_10",
+          "revised_description_id": "description_9",
+          "observations": 14,
+          "revised_description_selected": 7,
+          "revised_selection_rate": 0.5
+        },
+        {
+          "failed_description_id": "description_7",
+          "revised_description_id": "description_11",
+          "observations": 2,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 0.5
+        },
+        {
+          "failed_description_id": "description_11",
+          "revised_description_id": "description_12",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_12",
+          "revised_description_id": "description_13",
+          "observations": 3,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_13",
+          "revised_description_id": "description_12",
+          "observations": 3,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_7",
+          "revised_description_id": "description_14",
+          "observations": 4,
+          "revised_description_selected": 2,
+          "revised_selection_rate": 0.5
+        },
+        {
+          "failed_description_id": "description_14",
+          "revised_description_id": "description_9",
+          "observations": 2,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 0.5
+        },
+        {
+          "failed_description_id": "description_14",
+          "revised_description_id": "description_15",
+          "observations": 6,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_15",
+          "revised_description_id": "description_14",
+          "observations": 5,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 0.2
+        },
+        {
+          "failed_description_id": "description_11",
+          "revised_description_id": "description_16",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_16",
+          "revised_description_id": "description_17",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_17",
+          "revised_description_id": "description_16",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_16",
+          "revised_description_id": "description_18",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_18",
+          "revised_description_id": "description_19",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_7",
+          "revised_description_id": "description_20",
+          "observations": 3,
+          "revised_description_selected": 2,
+          "revised_selection_rate": 0.6666666666666666
+        },
+        {
+          "failed_description_id": "description_20",
+          "revised_description_id": "description_9",
+          "observations": 3,
+          "revised_description_selected": 2,
+          "revised_selection_rate": 0.6666666666666666
+        },
+        {
+          "failed_description_id": "description_9",
+          "revised_description_id": "description_21",
+          "observations": 7,
+          "revised_description_selected": 4,
+          "revised_selection_rate": 0.5714285714285714
+        },
+        {
+          "failed_description_id": "description_21",
+          "revised_description_id": "description_9",
+          "observations": 4,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        }
+      ]
+    },
+    "derived_assessment": {
+      "baseline_selection_rate": 0.42,
+      "supported_descriptions": [
+        {
+          "description_id": "description_6",
+          "selected": 7,
+          "attempts": 7,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_8",
+          "selected": 11,
+          "attempts": 19,
+          "selection_rate": 0.5789473684210527,
+          "confidence": "moderate"
+        },
+        {
+          "description_id": "description_21",
+          "selected": 7,
+          "attempts": 12,
+          "selection_rate": 0.5833333333333334,
+          "confidence": "moderate"
+        }
+      ],
+      "failed_descriptions": [
+        {
+          "description_id": "description_7",
+          "selected": 7,
+          "attempts": 25,
+          "selection_rate": 0.28,
+          "confidence": "high"
+        },
+        {
+          "description_id": "description_15",
+          "selected": 0,
+          "attempts": 6,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        }
+      ],
+      "uncertain_descriptions": [
+        {
+          "description_id": "description_1",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_2",
+          "selected": 0,
+          "attempts": 4,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_3",
+          "selected": 0,
+          "attempts": 4,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_4",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_5",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_9",
+          "selected": 25,
+          "attempts": 53,
+          "selection_rate": 0.4716981132075472,
+          "confidence": "high"
+        },
+        {
+          "description_id": "description_10",
+          "selected": 13,
+          "attempts": 28,
+          "selection_rate": 0.4642857142857143,
+          "confidence": "high"
+        },
+        {
+          "description_id": "description_11",
+          "selected": 1,
+          "attempts": 3,
+          "selection_rate": 0.3333333333333333,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_12",
+          "selected": 0,
+          "attempts": 4,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_13",
+          "selected": 0,
+          "attempts": 3,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_14",
+          "selected": 6,
+          "attempts": 14,
+          "selection_rate": 0.42857142857142855,
+          "confidence": "moderate"
+        },
+        {
+          "description_id": "description_16",
+          "selected": 1,
+          "attempts": 3,
+          "selection_rate": 0.3333333333333333,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_17",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_18",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_19",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_20",
+          "selected": 3,
+          "attempts": 6,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        }
+      ],
+      "classification_rule": "At least 5 attempts and selection rate at least 0.10 above or below the overall training rate. All other descriptions are uncertain."
+    },
+    "block_inferences": [
+      {
+        "block": 1,
+        "descriptions_actually_used": [
+          "description_1",
+          "description_2",
+          "description_3"
+        ],
+        "observed_selected": 1,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.1,
+        "next_synthesized_description": "This tool searches a collection of documents to find information that is relevant to a supplied query. It is particularly useful for extracting pertinent details from a large set of documents.",
+        "next_synthesized_description_id": "description_4",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 2,
+        "descriptions_actually_used": [
+          "description_4",
+          "description_5",
+          "description_6"
+        ],
+        "observed_selected": 8,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.8,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 3,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_8",
+          "description_9",
+          "description_10"
+        ],
+        "observed_selected": 3,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.3,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 4,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_11",
+          "description_12",
+          "description_13"
+        ],
+        "observed_selected": 1,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.1,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 5,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_14",
+          "description_9",
+          "description_10"
+        ],
+        "observed_selected": 6,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.6,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 6,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_8"
+        ],
+        "observed_selected": 9,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.9,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 7,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_14",
+          "description_15"
+        ],
+        "observed_selected": 5,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.5,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 8,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_11",
+          "description_16",
+          "description_17",
+          "description_18",
+          "description_19"
+        ],
+        "observed_selected": 3,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.3,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 9,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_8",
+          "description_9",
+          "description_10"
+        ],
+        "observed_selected": 0,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.0,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 10,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_20",
+          "description_9",
+          "description_21"
+        ],
+        "observed_selected": 7,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.7,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 11,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_8",
+          "description_9",
+          "description_10"
+        ],
+        "observed_selected": 6,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.6,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 12,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_20",
+          "description_9",
+          "description_21"
+        ],
+        "observed_selected": 1,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.1,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 13,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_8",
+          "description_9"
+        ],
+        "observed_selected": 7,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.7,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 14,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_8",
+          "description_9",
+          "description_10"
+        ],
+        "observed_selected": 3,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.3,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 15,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_8",
+          "description_9",
+          "description_10"
+        ],
+        "observed_selected": 5,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.5,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 16,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_8",
+          "description_9",
+          "description_10"
+        ],
+        "observed_selected": 7,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.7,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 17,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_8",
+          "description_9",
+          "description_10"
+        ],
+        "observed_selected": 3,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.3,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 18,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_14",
+          "description_15"
+        ],
+        "observed_selected": 1,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.1,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 19,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_20",
+          "description_9",
+          "description_21"
+        ],
+        "observed_selected": 4,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.4,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 20,
+        "descriptions_actually_used": [
+          "description_7",
+          "description_14",
+          "description_9",
+          "description_10"
+        ],
+        "observed_selected": 4,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.4,
+        "next_synthesized_description": "This tool searches a collection of documents to find information relevant to a supplied query. It is particularly useful for extracting specific details from extensive document sets.",
+        "next_synthesized_description_id": "description_7",
+        "model_inferred_lesson": "Good to do: Ensure clarity in the query to improve search relevance. Avoid: Repeating similar descriptions that do not enhance understanding.",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      }
+    ]
+  }
+}

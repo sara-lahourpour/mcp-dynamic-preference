@@ -1,0 +1,2554 @@
+{
+  "evaluation_mode": "memory_trained",
+  "truthfulness_policy": "truthful",
+  "full_training_evidence": {
+    "memory_version": 1,
+    "training_summary": {
+      "trials": 200,
+      "selections": 103,
+      "selection_rate": 0.515,
+      "query_blocks": 20
+    },
+    "current_state": {
+      "description": "This tool allows users to search a collection of documents to find information relevant to a specific query. It is particularly effective for retrieving detailed facts or insights from extensive document repositories, supporting thorough research and effective information extraction.",
+      "description_id": null,
+      "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}"
+    },
+    "observed_evidence": {
+      "description_evidence": [
+        {
+          "id": "description_1",
+          "description": "This tool facilitates the search of a document collection to find information that aligns with a given query.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_2",
+          "description": "This tool enables users to search through a collection of documents to locate information pertinent to a specified query. It is particularly useful when seeking specific details or insights from a large set of documents.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_3",
+          "description": "This tool allows users to search a collection of documents for information that is relevant to a given query. It is especially beneficial when looking for specific facts or insights within a vast array of documents.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_4",
+          "description": "This tool enables users to search through a collection of documents to find information pertinent to a specified query. It is particularly useful for retrieving specific facts or insights from a large set of documents.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_5",
+          "description": "This tool allows users to search a collection of documents to locate information relevant to a given query. It is especially beneficial for extracting specific facts or insights from extensive document sets.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_6",
+          "description": "This tool enables users to search through a collection of documents to find information pertinent to a specified query. It is particularly useful for identifying specific facts or insights within large sets of documents.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_7",
+          "description": "This tool allows users to explore a collection of documents to locate information that is relevant to a given query. It is especially beneficial for uncovering specific details or insights within extensive document repositories.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_8",
+          "description": "This tool enables users to search through a collection of documents to find information pertinent to a specific query. It is particularly useful for discovering particular details or insights within large sets of documents.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_9",
+          "description": "This tool allows users to explore a collection of documents to locate information that is relevant to a specific inquiry. It is especially beneficial for uncovering specific details or insights within extensive document sets.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            1
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_10",
+          "description": "This tool facilitates the search of a document collection to find information relevant to a specified query. It is particularly useful for retrieving specific facts or insights from large sets of documents.",
+          "attempts": 5,
+          "selected": 2,
+          "not_selected": 3,
+          "selection_rate": 0.4,
+          "blocks_seen": [
+            2,
+            3,
+            4
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_11",
+          "description": "This tool enables users to search through a collection of documents to locate information that pertains to a given query. It is especially beneficial for extracting specific details or insights from extensive document sets.",
+          "attempts": 9,
+          "selected": 3,
+          "not_selected": 6,
+          "selection_rate": 0.3333333333333333,
+          "blocks_seen": [
+            2,
+            3,
+            4
+          ],
+          "longest_success_streak": 2,
+          "confidence": "low"
+        },
+        {
+          "id": "description_12",
+          "description": "This tool allows users to search a collection of documents to find information relevant to a specified query. It is particularly useful for retrieving specific details or insights from large sets of documents.",
+          "attempts": 10,
+          "selected": 7,
+          "not_selected": 3,
+          "selection_rate": 0.7,
+          "blocks_seen": [
+            2,
+            3,
+            5
+          ],
+          "longest_success_streak": 4,
+          "confidence": "moderate"
+        },
+        {
+          "id": "description_13",
+          "description": "This tool allows users to search a collection of documents to find information related to a specified query. It is particularly useful for identifying specific details or insights within large sets of documents.",
+          "attempts": 2,
+          "selected": 0,
+          "not_selected": 2,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            3,
+            5
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_14",
+          "description": "This tool allows users to search a collection of documents to find information relevant to a specific query. It is particularly useful for identifying detailed insights or information from large sets of documents.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            3
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_15",
+          "description": "This tool enables users to search through a collection of documents to locate information pertinent to a specific query. It is especially beneficial for extracting detailed insights or relevant information from extensive document sets.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            3,
+            4
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_16",
+          "description": "This tool allows users to search a collection of documents to find information related to a specific query. It is particularly useful for retrieving detailed insights or relevant data from large sets of documents.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            4
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_17",
+          "description": "This tool allows users to search a collection of documents for information related to a specific query. It is particularly useful for finding detailed insights or relevant data within large sets of documents.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            4
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_18",
+          "description": "This tool enables users to search through a collection of documents for information pertinent to a specific query. It is especially beneficial for uncovering detailed insights or relevant data within extensive document sets.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            4
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_19",
+          "description": "This tool allows users to search a collection of documents for information that relates to a specific query. It is particularly useful for extracting relevant insights or data from large sets of documents.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            4
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_20",
+          "description": "This tool enables users to search through a collection of documents to find information pertinent to a specific query. It is especially beneficial for obtaining relevant insights or data from extensive document repositories.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            4
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_21",
+          "description": "This tool enables users to search through a collection of documents to locate information pertinent to a specific query. It is especially beneficial for extracting precise facts or insights from extensive document sets.",
+          "attempts": 8,
+          "selected": 4,
+          "not_selected": 4,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            5,
+            6
+          ],
+          "longest_success_streak": 4,
+          "confidence": "low"
+        },
+        {
+          "id": "description_22",
+          "description": "This tool enables users to search through a collection of documents to locate information pertinent to a specific query. It is especially beneficial for uncovering specific facts or insights within extensive document sets.",
+          "attempts": 3,
+          "selected": 3,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            5
+          ],
+          "longest_success_streak": 3,
+          "confidence": "low"
+        },
+        {
+          "id": "description_23",
+          "description": "This tool allows users to search a collection of documents for information that is relevant to a specific query. It is particularly useful for finding specific facts or insights within large sets of documents.",
+          "attempts": 3,
+          "selected": 1,
+          "not_selected": 2,
+          "selection_rate": 0.3333333333333333,
+          "blocks_seen": [
+            6
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_24",
+          "description": "This tool allows users to search a collection of documents for information relevant to a specific query. It is particularly effective for retrieving precise facts or insights from large document sets, making it useful for in-depth research and information extraction.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            7
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_25",
+          "description": "This tool enables users to search through a collection of documents to find information pertinent to a specific query. It is especially useful for extracting detailed facts or insights from extensive document repositories, aiding in thorough research and information retrieval.",
+          "attempts": 8,
+          "selected": 5,
+          "not_selected": 3,
+          "selection_rate": 0.625,
+          "blocks_seen": [
+            7,
+            8,
+            9
+          ],
+          "longest_success_streak": 3,
+          "confidence": "low"
+        },
+        {
+          "id": "description_26",
+          "description": "This tool allows users to search a collection of documents for information relevant to a specified query. It is particularly beneficial for retrieving detailed facts or insights from large sets of documents, supporting comprehensive research and information gathering.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            7
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_27",
+          "description": "This tool enables users to search through a collection of documents to find information that is pertinent to a given query. It is especially useful for extracting specific facts or insights from extensive document sets, aiding in thorough research and information acquisition.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            7
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_28",
+          "description": "This tool allows users to search a collection of documents for information relevant to a specified query. It is particularly beneficial for retrieving specific facts or insights from large document sets, facilitating effective research and information gathering.",
+          "attempts": 2,
+          "selected": 2,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            7
+          ],
+          "longest_success_streak": 2,
+          "confidence": "low"
+        },
+        {
+          "id": "description_29",
+          "description": "This tool allows users to search a collection of documents for information that is relevant to a specific query. It is especially useful for retrieving detailed facts or insights from large document repositories, facilitating comprehensive research and information gathering.",
+          "attempts": 2,
+          "selected": 0,
+          "not_selected": 2,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            8,
+            9
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_30",
+          "description": "This tool enables users to search through a collection of documents to find information pertinent to a specific query. It is particularly valuable for extracting detailed facts or insights from extensive document repositories, aiding in thorough research and information collection.",
+          "attempts": 3,
+          "selected": 2,
+          "not_selected": 1,
+          "selection_rate": 0.6666666666666666,
+          "blocks_seen": [
+            8
+          ],
+          "longest_success_streak": 2,
+          "confidence": "low"
+        },
+        {
+          "id": "description_31",
+          "description": "This tool allows users to search a collection of documents to locate information relevant to a specific query. It is especially useful for gathering detailed facts or insights from large document repositories, facilitating comprehensive research and information retrieval.",
+          "attempts": 4,
+          "selected": 3,
+          "not_selected": 1,
+          "selection_rate": 0.75,
+          "blocks_seen": [
+            8
+          ],
+          "longest_success_streak": 3,
+          "confidence": "low"
+        },
+        {
+          "id": "description_32",
+          "description": "This tool enables users to search through a collection of documents to find information pertinent to a specific query. It is particularly beneficial for extracting detailed information or insights from extensive document databases, aiding in thorough research and information acquisition.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            9
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_33",
+          "description": "This tool allows users to search a collection of documents to locate information relevant to a specific inquiry. It is especially useful for retrieving detailed insights from large document databases, facilitating comprehensive research and information gathering.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            9
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_34",
+          "description": "This tool enables users to search through a collection of documents to find information that pertains to a specific inquiry. It is particularly beneficial for extracting detailed insights from extensive document repositories, aiding in thorough research and information collection.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            9
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_35",
+          "description": "This tool allows users to search a collection of documents for information relevant to a specific query. It is especially useful for obtaining detailed insights from large document repositories, facilitating comprehensive research and information gathering.",
+          "attempts": 2,
+          "selected": 0,
+          "not_selected": 2,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            9
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_36",
+          "description": "This tool enables users to search through a collection of documents for information pertinent to a given query. It is particularly beneficial for extracting detailed insights from extensive document repositories, aiding in thorough research and information collection.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            9
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_37",
+          "description": "This tool allows users to search a collection of documents to find information relevant to a specific query. It is especially effective for retrieving detailed facts or insights from large document repositories, making it useful for comprehensive research and information extraction.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            10
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_38",
+          "description": "This tool enables users to search through a collection of documents to locate information pertinent to a given query. It is particularly useful for extracting specific facts or insights from extensive document repositories, aiding in thorough research and information retrieval.",
+          "attempts": 9,
+          "selected": 9,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            10
+          ],
+          "longest_success_streak": 9,
+          "confidence": "low"
+        },
+        {
+          "id": "description_39",
+          "description": "This tool allows users to search a collection of documents to find information relevant to a specific query. It is particularly effective for retrieving detailed facts or insights from extensive document repositories, supporting comprehensive research and information extraction.",
+          "attempts": 14,
+          "selected": 10,
+          "not_selected": 4,
+          "selection_rate": 0.7142857142857143,
+          "blocks_seen": [
+            11,
+            15,
+            16,
+            17
+          ],
+          "longest_success_streak": 8,
+          "confidence": "moderate"
+        },
+        {
+          "id": "description_40",
+          "description": "This tool enables users to search through a collection of documents to locate information pertinent to a specific query. It is especially useful for extracting detailed facts or insights from large document repositories, facilitating thorough research and information retrieval.",
+          "attempts": 1,
+          "selected": 1,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            11
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_41",
+          "description": "This tool enables users to search through a collection of documents to locate information pertinent to a specific query. It is particularly effective for retrieving detailed facts or insights from extensive document repositories, supporting comprehensive research and information extraction.",
+          "attempts": 3,
+          "selected": 1,
+          "not_selected": 2,
+          "selection_rate": 0.3333333333333333,
+          "blocks_seen": [
+            12,
+            18
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_42",
+          "description": "This tool allows users to search a collection of documents to find information relevant to a specific query. It is useful for extracting detailed facts and insights from large document repositories, aiding in thorough research and information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            12
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_43",
+          "description": "This tool enables users to search through a collection of documents to locate information pertinent to a specific query. It is beneficial for obtaining detailed facts and insights from extensive document repositories, facilitating comprehensive research and information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            12
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_44",
+          "description": "This tool allows users to search a collection of documents to find information relevant to a specific query. It is useful for accessing detailed facts and insights from large document repositories, making it ideal for thorough research and information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            12
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_45",
+          "description": "This tool enables users to search through a collection of documents to locate information pertinent to a specific inquiry. It is particularly beneficial for obtaining detailed insights and facts from extensive document libraries, making it suitable for comprehensive research and information retrieval.",
+          "attempts": 3,
+          "selected": 1,
+          "not_selected": 2,
+          "selection_rate": 0.3333333333333333,
+          "blocks_seen": [
+            12
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_46",
+          "description": "This tool allows users to search a collection of documents to find relevant information based on a specific inquiry. It is especially useful for extracting detailed insights and facts from large document libraries, making it ideal for thorough research and information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            12
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_47",
+          "description": "This tool allows users to search a collection of documents to find relevant information tied to a specific inquiry. It is especially useful for extracting detailed insights and facts from large document repositories, making it ideal for thorough research and information gathering.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            12
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_48",
+          "description": "This tool enables users to search through a collection of documents to locate information pertinent to a specific inquiry. It is particularly beneficial for obtaining detailed insights and facts from extensive document repositories, making it suitable for comprehensive research and information retrieval.",
+          "attempts": 1,
+          "selected": 1,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            12
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_49",
+          "description": "This tool allows users to search through a collection of documents to find information relevant to a specific inquiry. It is particularly effective for retrieving detailed facts or insights from extensive document repositories, supporting thorough research and information extraction.",
+          "attempts": 12,
+          "selected": 10,
+          "not_selected": 2,
+          "selection_rate": 0.8333333333333334,
+          "blocks_seen": [
+            13,
+            14
+          ],
+          "longest_success_streak": 9,
+          "confidence": "moderate"
+        },
+        {
+          "id": "description_50",
+          "description": "This tool allows users to search a collection of documents to locate information pertinent to a specific inquiry. It is especially useful for extracting detailed facts or insights from large document repositories, facilitating comprehensive research and information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            14
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_51",
+          "description": "This tool enables users to search through a collection of documents to find information relevant to a specific query. It is particularly beneficial for gathering detailed facts or insights from extensive document libraries, aiding in thorough research and effective information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            14
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_52",
+          "description": "This tool allows users to search a collection of documents for information pertinent to a specific query. It is useful for extracting detailed facts or insights from large document libraries, supporting comprehensive research and effective information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            14
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_53",
+          "description": "This tool enables users to search through a collection of documents to find information relevant to a specific query. It is useful for extracting detailed facts or insights from extensive document libraries, aiding in thorough research and effective information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            14
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_54",
+          "description": "This tool allows users to search a collection of documents for information pertinent to a specific query. It is particularly useful for retrieving detailed facts or insights from large document libraries, facilitating comprehensive research and effective information gathering.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            14
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_55",
+          "description": "This tool enables users to search a collection of documents for information relevant to a specific query. It is particularly useful for extracting detailed facts or insights from extensive document libraries, aiding in thorough research and effective information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            14
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_56",
+          "description": "This tool allows users to search through a collection of documents for information pertinent to a specific query. It is especially beneficial for obtaining detailed facts or insights from large document libraries, supporting comprehensive research and effective information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            14
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_57",
+          "description": "This tool enables users to search a collection of documents for information relevant to a specific query. It is particularly useful for gathering detailed facts or insights from extensive document libraries, aiding in thorough research and effective information retrieval.",
+          "attempts": 1,
+          "selected": 1,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            14
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_58",
+          "description": "This tool enables users to search through a collection of documents to find information pertinent to a specific query. It is especially useful for extracting detailed facts and insights from large document repositories, facilitating comprehensive research and information retrieval.",
+          "attempts": 9,
+          "selected": 5,
+          "not_selected": 4,
+          "selection_rate": 0.5555555555555556,
+          "blocks_seen": [
+            15,
+            16,
+            17
+          ],
+          "longest_success_streak": 4,
+          "confidence": "low"
+        },
+        {
+          "id": "description_59",
+          "description": "This tool allows users to search a collection of documents for information related to a specific query. It is particularly beneficial for gathering detailed facts and insights from extensive document repositories, aiding in thorough research and information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            15
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_60",
+          "description": "This tool allows users to search a collection of documents for information relevant to a specific query. It is particularly useful for obtaining detailed facts and insights from extensive document repositories, aiding in thorough research and information retrieval.",
+          "attempts": 1,
+          "selected": 1,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            15
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_61",
+          "description": "This tool allows users to search a collection of documents for information relevant to a specific query. It is particularly beneficial for retrieving detailed insights and facts from extensive document repositories, aiding in thorough research and information gathering.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            16
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_62",
+          "description": "This tool enables users to search through a collection of documents to find information pertinent to a specific query. It is especially useful for obtaining detailed insights and facts from large document repositories, facilitating comprehensive research and information retrieval.",
+          "attempts": 5,
+          "selected": 5,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            16
+          ],
+          "longest_success_streak": 5,
+          "confidence": "low"
+        },
+        {
+          "id": "description_63",
+          "description": "This tool allows users to explore a collection of documents to find information relevant to a specific query. It is particularly beneficial for obtaining detailed facts and insights from extensive document repositories, aiding in thorough research and information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            17
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_64",
+          "description": "This tool enables users to search through a collection of documents to identify information that pertains to a specific query. It is especially useful for gathering detailed facts and insights from large document repositories, facilitating comprehensive research and effective information retrieval.",
+          "attempts": 4,
+          "selected": 3,
+          "not_selected": 1,
+          "selection_rate": 0.75,
+          "blocks_seen": [
+            17
+          ],
+          "longest_success_streak": 3,
+          "confidence": "low"
+        },
+        {
+          "id": "description_65",
+          "description": "This tool allows users to search a collection of documents for information relevant to a specific query. It is useful for extracting detailed facts and insights from extensive document repositories, aiding in thorough research and information retrieval.",
+          "attempts": 3,
+          "selected": 3,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            17
+          ],
+          "longest_success_streak": 3,
+          "confidence": "low"
+        },
+        {
+          "id": "description_66",
+          "description": "This tool allows users to search a collection of documents to find information that is relevant to a specific query. It is especially useful for obtaining detailed facts or insights from large document repositories, aiding in comprehensive research and information extraction.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            18
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_67",
+          "description": "This tool enables users to search through a collection of documents to identify information pertinent to a specific query. It is particularly beneficial for retrieving detailed facts or insights from extensive document repositories, supporting thorough research and effective information extraction.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            18
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_68",
+          "description": "This tool allows users to search a collection of documents to find information relevant to a specific query. It is useful for extracting detailed facts or insights from large document repositories, facilitating thorough research and effective information retrieval.",
+          "attempts": 2,
+          "selected": 0,
+          "not_selected": 2,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            18
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_69",
+          "description": "This tool enables users to search through a collection of documents to locate information pertinent to a specific query. It is useful for gathering detailed facts or insights from extensive document repositories, aiding in comprehensive research and effective information retrieval.",
+          "attempts": 4,
+          "selected": 3,
+          "not_selected": 1,
+          "selection_rate": 0.75,
+          "blocks_seen": [
+            18
+          ],
+          "longest_success_streak": 3,
+          "confidence": "low"
+        },
+        {
+          "id": "description_70",
+          "description": "This tool allows users to search through a collection of documents to find information that is relevant to a specific query. It is particularly effective for retrieving detailed facts or insights from extensive document repositories, supporting thorough research and effective information extraction.",
+          "attempts": 5,
+          "selected": 4,
+          "not_selected": 1,
+          "selection_rate": 0.8,
+          "blocks_seen": [
+            19
+          ],
+          "longest_success_streak": 4,
+          "confidence": "low"
+        },
+        {
+          "id": "description_71",
+          "description": "This tool enables users to search a collection of documents for information pertinent to a specific query. It is especially useful for extracting detailed facts or insights from large document repositories, facilitating comprehensive research and effective information retrieval.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            19
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_72",
+          "description": "This tool allows users to search through a collection of documents to find information relevant to a specific query. It is particularly beneficial for obtaining detailed facts or insights from extensive document repositories, enhancing research efforts and improving information retrieval.",
+          "attempts": 3,
+          "selected": 3,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            19
+          ],
+          "longest_success_streak": 3,
+          "confidence": "low"
+        },
+        {
+          "id": "description_73",
+          "description": "This tool enables users to search through a collection of documents to find information relevant to a specific query. It is particularly effective for retrieving detailed facts or insights from extensive document repositories, supporting thorough research and effective information extraction.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            20
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_74",
+          "description": "This tool allows users to search a collection of documents to locate information pertinent to a specific query. It is useful for extracting detailed facts or insights from large document repositories, facilitating thorough research and effective information retrieval.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            20
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_75",
+          "description": "This tool enables users to search through a collection of documents to find information relevant to a specific query. It is particularly useful for obtaining detailed facts or insights from extensive document repositories, thereby enhancing research efforts and information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            20
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_76",
+          "description": "This tool allows users to search a collection of documents to locate information pertinent to a specific query. It is especially beneficial for extracting detailed facts or insights from large document databases, thus supporting research and information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            20
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_77",
+          "description": "This tool enables users to search through a collection of documents to find information relevant to a specific query. It is particularly useful for obtaining detailed facts or insights from extensive document databases, aiding in research and information retrieval.",
+          "attempts": 2,
+          "selected": 1,
+          "not_selected": 1,
+          "selection_rate": 0.5,
+          "blocks_seen": [
+            20
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        },
+        {
+          "id": "description_78",
+          "description": "This tool allows users to search a collection of documents for information that pertains to a specific query. It is especially beneficial for extracting detailed facts or insights from large document databases, facilitating effective research and information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            20
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_79",
+          "description": "This tool enables users to search through a collection of documents for relevant information based on a specific query. It is particularly useful for obtaining detailed facts or insights from extensive document databases, enhancing research and information retrieval.",
+          "attempts": 1,
+          "selected": 0,
+          "not_selected": 1,
+          "selection_rate": 0.0,
+          "blocks_seen": [
+            20
+          ],
+          "longest_success_streak": 0,
+          "confidence": "low"
+        },
+        {
+          "id": "description_80",
+          "description": "This tool allows users to search a collection of documents for relevant information based on a specific query. It is particularly beneficial for extracting detailed facts or insights from large document databases, thereby improving research and information retrieval.",
+          "attempts": 1,
+          "selected": 1,
+          "not_selected": 0,
+          "selection_rate": 1.0,
+          "blocks_seen": [
+            20
+          ],
+          "longest_success_streak": 1,
+          "confidence": "low"
+        }
+      ],
+      "revision_evidence": [
+        {
+          "failed_description_id": "description_1",
+          "revised_description_id": "description_2",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_2",
+          "revised_description_id": "description_3",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_3",
+          "revised_description_id": "description_4",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_4",
+          "revised_description_id": "description_5",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_5",
+          "revised_description_id": "description_6",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_6",
+          "revised_description_id": "description_7",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_7",
+          "revised_description_id": "description_8",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_8",
+          "revised_description_id": "description_9",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_10",
+          "revised_description_id": "description_11",
+          "observations": 3,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 0.3333333333333333
+        },
+        {
+          "failed_description_id": "description_11",
+          "revised_description_id": "description_12",
+          "observations": 2,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 0.5
+        },
+        {
+          "failed_description_id": "description_12",
+          "revised_description_id": "description_11",
+          "observations": 2,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 0.5
+        },
+        {
+          "failed_description_id": "description_11",
+          "revised_description_id": "description_13",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_13",
+          "revised_description_id": "description_11",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_11",
+          "revised_description_id": "description_14",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_14",
+          "revised_description_id": "description_15",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_11",
+          "revised_description_id": "description_16",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_16",
+          "revised_description_id": "description_15",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_15",
+          "revised_description_id": "description_17",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_17",
+          "revised_description_id": "description_18",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_18",
+          "revised_description_id": "description_19",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_19",
+          "revised_description_id": "description_20",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_12",
+          "revised_description_id": "description_21",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_21",
+          "revised_description_id": "description_13",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_13",
+          "revised_description_id": "description_22",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_21",
+          "revised_description_id": "description_23",
+          "observations": 3,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 0.3333333333333333
+        },
+        {
+          "failed_description_id": "description_23",
+          "revised_description_id": "description_21",
+          "observations": 2,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 0.5
+        },
+        {
+          "failed_description_id": "description_24",
+          "revised_description_id": "description_25",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_25",
+          "revised_description_id": "description_26",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_26",
+          "revised_description_id": "description_27",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_27",
+          "revised_description_id": "description_28",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_25",
+          "revised_description_id": "description_29",
+          "observations": 2,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_29",
+          "revised_description_id": "description_30",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_30",
+          "revised_description_id": "description_31",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_29",
+          "revised_description_id": "description_32",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_32",
+          "revised_description_id": "description_33",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_33",
+          "revised_description_id": "description_34",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_34",
+          "revised_description_id": "description_35",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_35",
+          "revised_description_id": "description_36",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_36",
+          "revised_description_id": "description_35",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_37",
+          "revised_description_id": "description_38",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_39",
+          "revised_description_id": "description_40",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_41",
+          "revised_description_id": "description_42",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_42",
+          "revised_description_id": "description_43",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_43",
+          "revised_description_id": "description_44",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_44",
+          "revised_description_id": "description_45",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_45",
+          "revised_description_id": "description_46",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_46",
+          "revised_description_id": "description_45",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_45",
+          "revised_description_id": "description_47",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_47",
+          "revised_description_id": "description_48",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_49",
+          "revised_description_id": "description_50",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_50",
+          "revised_description_id": "description_51",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_51",
+          "revised_description_id": "description_52",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_52",
+          "revised_description_id": "description_53",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_53",
+          "revised_description_id": "description_54",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_54",
+          "revised_description_id": "description_55",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_55",
+          "revised_description_id": "description_56",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_56",
+          "revised_description_id": "description_57",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_39",
+          "revised_description_id": "description_58",
+          "observations": 3,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 0.3333333333333333
+        },
+        {
+          "failed_description_id": "description_58",
+          "revised_description_id": "description_59",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_59",
+          "revised_description_id": "description_58",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_58",
+          "revised_description_id": "description_60",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_58",
+          "revised_description_id": "description_61",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_61",
+          "revised_description_id": "description_62",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_58",
+          "revised_description_id": "description_63",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_63",
+          "revised_description_id": "description_64",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_64",
+          "revised_description_id": "description_65",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_41",
+          "revised_description_id": "description_66",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_66",
+          "revised_description_id": "description_67",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_67",
+          "revised_description_id": "description_68",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_68",
+          "revised_description_id": "description_69",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_69",
+          "revised_description_id": "description_68",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_70",
+          "revised_description_id": "description_71",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_71",
+          "revised_description_id": "description_72",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_73",
+          "revised_description_id": "description_74",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_74",
+          "revised_description_id": "description_75",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_75",
+          "revised_description_id": "description_76",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_76",
+          "revised_description_id": "description_77",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        },
+        {
+          "failed_description_id": "description_77",
+          "revised_description_id": "description_78",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_78",
+          "revised_description_id": "description_79",
+          "observations": 1,
+          "revised_description_selected": 0,
+          "revised_selection_rate": 0.0
+        },
+        {
+          "failed_description_id": "description_79",
+          "revised_description_id": "description_80",
+          "observations": 1,
+          "revised_description_selected": 1,
+          "revised_selection_rate": 1.0
+        }
+      ]
+    },
+    "derived_assessment": {
+      "baseline_selection_rate": 0.515,
+      "supported_descriptions": [
+        {
+          "description_id": "description_12",
+          "selected": 7,
+          "attempts": 10,
+          "selection_rate": 0.7,
+          "confidence": "moderate"
+        },
+        {
+          "description_id": "description_25",
+          "selected": 5,
+          "attempts": 8,
+          "selection_rate": 0.625,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_38",
+          "selected": 9,
+          "attempts": 9,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_39",
+          "selected": 10,
+          "attempts": 14,
+          "selection_rate": 0.7142857142857143,
+          "confidence": "moderate"
+        },
+        {
+          "description_id": "description_49",
+          "selected": 10,
+          "attempts": 12,
+          "selection_rate": 0.8333333333333334,
+          "confidence": "moderate"
+        },
+        {
+          "description_id": "description_62",
+          "selected": 5,
+          "attempts": 5,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_70",
+          "selected": 4,
+          "attempts": 5,
+          "selection_rate": 0.8,
+          "confidence": "low"
+        }
+      ],
+      "failed_descriptions": [
+        {
+          "description_id": "description_10",
+          "selected": 2,
+          "attempts": 5,
+          "selection_rate": 0.4,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_11",
+          "selected": 3,
+          "attempts": 9,
+          "selection_rate": 0.3333333333333333,
+          "confidence": "low"
+        }
+      ],
+      "uncertain_descriptions": [
+        {
+          "description_id": "description_1",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_2",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_3",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_4",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_5",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_6",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_7",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_8",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_9",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_13",
+          "selected": 0,
+          "attempts": 2,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_14",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_15",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_16",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_17",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_18",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_19",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_20",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_21",
+          "selected": 4,
+          "attempts": 8,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_22",
+          "selected": 3,
+          "attempts": 3,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_23",
+          "selected": 1,
+          "attempts": 3,
+          "selection_rate": 0.3333333333333333,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_24",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_26",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_27",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_28",
+          "selected": 2,
+          "attempts": 2,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_29",
+          "selected": 0,
+          "attempts": 2,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_30",
+          "selected": 2,
+          "attempts": 3,
+          "selection_rate": 0.6666666666666666,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_31",
+          "selected": 3,
+          "attempts": 4,
+          "selection_rate": 0.75,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_32",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_33",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_34",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_35",
+          "selected": 0,
+          "attempts": 2,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_36",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_37",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_40",
+          "selected": 1,
+          "attempts": 1,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_41",
+          "selected": 1,
+          "attempts": 3,
+          "selection_rate": 0.3333333333333333,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_42",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_43",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_44",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_45",
+          "selected": 1,
+          "attempts": 3,
+          "selection_rate": 0.3333333333333333,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_46",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_47",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_48",
+          "selected": 1,
+          "attempts": 1,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_50",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_51",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_52",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_53",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_54",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_55",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_56",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_57",
+          "selected": 1,
+          "attempts": 1,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_58",
+          "selected": 5,
+          "attempts": 9,
+          "selection_rate": 0.5555555555555556,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_59",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_60",
+          "selected": 1,
+          "attempts": 1,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_61",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_63",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_64",
+          "selected": 3,
+          "attempts": 4,
+          "selection_rate": 0.75,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_65",
+          "selected": 3,
+          "attempts": 3,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_66",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_67",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_68",
+          "selected": 0,
+          "attempts": 2,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_69",
+          "selected": 3,
+          "attempts": 4,
+          "selection_rate": 0.75,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_71",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_72",
+          "selected": 3,
+          "attempts": 3,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_73",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_74",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_75",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_76",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_77",
+          "selected": 1,
+          "attempts": 2,
+          "selection_rate": 0.5,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_78",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_79",
+          "selected": 0,
+          "attempts": 1,
+          "selection_rate": 0.0,
+          "confidence": "low"
+        },
+        {
+          "description_id": "description_80",
+          "selected": 1,
+          "attempts": 1,
+          "selection_rate": 1.0,
+          "confidence": "low"
+        }
+      ],
+      "classification_rule": "At least 5 attempts and selection rate at least 0.10 above or below the overall training rate. All other descriptions are uncertain."
+    },
+    "block_inferences": [
+      {
+        "block": 1,
+        "descriptions_actually_used": [
+          "description_1",
+          "description_2",
+          "description_3",
+          "description_4",
+          "description_5",
+          "description_6",
+          "description_7",
+          "description_8",
+          "description_9"
+        ],
+        "observed_selected": 1,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.1,
+        "next_synthesized_description": "This tool facilitates the search of a document collection to find information relevant to a specified query. It is particularly useful for retrieving specific facts or insights from large sets of documents.",
+        "next_synthesized_description_id": "description_10",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 2,
+        "descriptions_actually_used": [
+          "description_10",
+          "description_11",
+          "description_12"
+        ],
+        "observed_selected": 6,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.6,
+        "next_synthesized_description": "This tool facilitates the search of a document collection to find information relevant to a specified query. It is particularly useful for retrieving specific facts or insights from large sets of documents.",
+        "next_synthesized_description_id": "description_10",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 3,
+        "descriptions_actually_used": [
+          "description_10",
+          "description_11",
+          "description_13",
+          "description_12",
+          "description_14",
+          "description_15"
+        ],
+        "observed_selected": 3,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.3,
+        "next_synthesized_description": "This tool facilitates the search of a document collection to find information relevant to a specified query. It is particularly useful for retrieving specific facts or insights from large sets of documents.",
+        "next_synthesized_description_id": "description_10",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 4,
+        "descriptions_actually_used": [
+          "description_10",
+          "description_11",
+          "description_16",
+          "description_15",
+          "description_17",
+          "description_18",
+          "description_19",
+          "description_20"
+        ],
+        "observed_selected": 2,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.2,
+        "next_synthesized_description": "This tool allows users to search a collection of documents to find information relevant to a specific query. It is particularly useful for retrieving specific facts or insights from large sets of documents.",
+        "next_synthesized_description_id": "description_12",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 5,
+        "descriptions_actually_used": [
+          "description_12",
+          "description_21",
+          "description_13",
+          "description_22"
+        ],
+        "observed_selected": 7,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.7,
+        "next_synthesized_description": "This tool enables users to search through a collection of documents to locate information pertinent to a specific query. It is especially beneficial for extracting precise facts or insights from extensive document sets.",
+        "next_synthesized_description_id": "description_21",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 6,
+        "descriptions_actually_used": [
+          "description_21",
+          "description_23"
+        ],
+        "observed_selected": 5,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.5,
+        "next_synthesized_description": "This tool allows users to search a collection of documents for information relevant to a specific query. It is particularly effective for retrieving precise facts or insights from large document sets, making it useful for in-depth research and information extraction.",
+        "next_synthesized_description_id": "description_24",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 7,
+        "descriptions_actually_used": [
+          "description_24",
+          "description_25",
+          "description_26",
+          "description_27",
+          "description_28"
+        ],
+        "observed_selected": 6,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.6,
+        "next_synthesized_description": "This tool enables users to search through a collection of documents to find information pertinent to a specific query. It is particularly beneficial for extracting detailed facts or insights from extensive document repositories, aiding in thorough research and information retrieval.",
+        "next_synthesized_description_id": "description_25",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 8,
+        "descriptions_actually_used": [
+          "description_25",
+          "description_29",
+          "description_30",
+          "description_31"
+        ],
+        "observed_selected": 6,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.6,
+        "next_synthesized_description": "This tool enables users to search through a collection of documents to find information pertinent to a specific query. It is particularly beneficial for extracting detailed facts or insights from extensive document repositories, aiding in thorough research and information retrieval.",
+        "next_synthesized_description_id": "description_25",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 9,
+        "descriptions_actually_used": [
+          "description_25",
+          "description_29",
+          "description_32",
+          "description_33",
+          "description_34",
+          "description_35",
+          "description_36"
+        ],
+        "observed_selected": 2,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.2,
+        "next_synthesized_description": "This tool allows users to search a collection of documents to find information relevant to a specific query. It is especially effective for retrieving detailed facts or insights from large document repositories, making it useful for comprehensive research and information extraction.",
+        "next_synthesized_description_id": "description_37",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 10,
+        "descriptions_actually_used": [
+          "description_37",
+          "description_38"
+        ],
+        "observed_selected": 9,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.9,
+        "next_synthesized_description": "This tool allows users to search a collection of documents to find information relevant to a specific query. It is particularly effective for retrieving detailed facts or insights from extensive document repositories, supporting comprehensive research and information extraction.",
+        "next_synthesized_description_id": "description_39",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 11,
+        "descriptions_actually_used": [
+          "description_39",
+          "description_40"
+        ],
+        "observed_selected": 9,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.9,
+        "next_synthesized_description": "This tool enables users to search through a collection of documents to locate information pertinent to a specific query. It is particularly effective for retrieving detailed facts or insights from extensive document repositories, supporting comprehensive research and information extraction.",
+        "next_synthesized_description_id": "description_41",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 12,
+        "descriptions_actually_used": [
+          "description_41",
+          "description_42",
+          "description_43",
+          "description_44",
+          "description_45",
+          "description_46",
+          "description_47",
+          "description_48"
+        ],
+        "observed_selected": 2,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.2,
+        "next_synthesized_description": "This tool allows users to search through a collection of documents to find information relevant to a specific inquiry. It is particularly effective for retrieving detailed facts or insights from extensive document repositories, supporting thorough research and information extraction.",
+        "next_synthesized_description_id": "description_49",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 13,
+        "descriptions_actually_used": [
+          "description_49"
+        ],
+        "observed_selected": 9,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.9,
+        "next_synthesized_description": "This tool enables users to search through a collection of documents to find information relevant to a specific inquiry. It is particularly effective for retrieving detailed facts or insights from extensive document repositories, supporting thorough research and information extraction.",
+        "next_synthesized_description_id": "description_49",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 14,
+        "descriptions_actually_used": [
+          "description_49",
+          "description_50",
+          "description_51",
+          "description_52",
+          "description_53",
+          "description_54",
+          "description_55",
+          "description_56",
+          "description_57"
+        ],
+        "observed_selected": 2,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.2,
+        "next_synthesized_description": "This tool allows users to search a collection of documents for information relevant to a specific query. It is particularly effective for retrieving detailed facts or insights from extensive document repositories, supporting thorough research and information extraction.",
+        "next_synthesized_description_id": "description_39",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 15,
+        "descriptions_actually_used": [
+          "description_39",
+          "description_58",
+          "description_59",
+          "description_60"
+        ],
+        "observed_selected": 6,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.6,
+        "next_synthesized_description": "This tool allows users to search a collection of documents for information relevant to a specific query. It is particularly effective for retrieving detailed facts or insights from extensive document repositories, supporting thorough research and information extraction.",
+        "next_synthesized_description_id": "description_39",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 16,
+        "descriptions_actually_used": [
+          "description_39",
+          "description_58",
+          "description_61",
+          "description_62"
+        ],
+        "observed_selected": 7,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.7,
+        "next_synthesized_description": "This tool allows users to search a collection of documents to find information relevant to a specific query. It is particularly effective for retrieving detailed facts or insights from extensive document repositories, supporting thorough research and information extraction.",
+        "next_synthesized_description_id": "description_39",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 17,
+        "descriptions_actually_used": [
+          "description_39",
+          "description_58",
+          "description_63",
+          "description_64",
+          "description_65"
+        ],
+        "observed_selected": 6,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.6,
+        "next_synthesized_description": "This tool enables users to search through a collection of documents to locate information pertinent to a specific query. It is particularly effective for retrieving detailed facts or insights from extensive document repositories, supporting thorough research and information extraction.",
+        "next_synthesized_description_id": "description_41",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 18,
+        "descriptions_actually_used": [
+          "description_41",
+          "description_66",
+          "description_67",
+          "description_68",
+          "description_69"
+        ],
+        "observed_selected": 4,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.4,
+        "next_synthesized_description": "This tool allows users to search through a collection of documents to find information that is relevant to a specific query. It is particularly effective for retrieving detailed facts or insights from extensive document repositories, supporting thorough research and effective information extraction.",
+        "next_synthesized_description_id": "description_70",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 19,
+        "descriptions_actually_used": [
+          "description_70",
+          "description_71",
+          "description_72"
+        ],
+        "observed_selected": 8,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.8,
+        "next_synthesized_description": "This tool enables users to search through a collection of documents to find information relevant to a specific query. It is particularly effective for retrieving detailed facts or insights from extensive document repositories, supporting thorough research and effective information extraction.",
+        "next_synthesized_description_id": "description_73",
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      },
+      {
+        "block": 20,
+        "descriptions_actually_used": [
+          "description_73",
+          "description_74",
+          "description_75",
+          "description_76",
+          "description_77",
+          "description_78",
+          "description_79",
+          "description_80"
+        ],
+        "observed_selected": 3,
+        "observed_trials": 10,
+        "observed_selection_rate": 0.3,
+        "next_synthesized_description": "This tool allows users to search a collection of documents to find information relevant to a specific query. It is particularly effective for retrieving detailed facts or insights from extensive document repositories, supporting thorough research and effective information extraction.",
+        "next_synthesized_description_id": null,
+        "model_inferred_lesson": "{'Good to do': \"Focus on clear and concise descriptions of the tool's capabilities without unnecessary variations.\", 'Avoid': 'Repetitive phrasing and overly complex descriptions that do not add value.'}",
+        "evidence_note": "Observed outcomes apply to descriptions_actually_used. They do not establish performance for the next synthesized description."
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "evaluation_mode": "stateless",
+  "truthfulness_policy": "deceptive",
+  "memory_supplied_to_final_adversarial_llm": null
+}

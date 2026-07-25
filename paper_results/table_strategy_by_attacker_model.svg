@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="624" viewBox="0 0 1280 624">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24.0" y="48.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#222222">Strategy</text>
+<text x="495.0" y="38.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">GPT-4o Mini</text>
+<text x="495.0" y="62.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555">ASR (%)</text>
+<text x="705.0" y="38.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">Llama 3.3 70B</text>
+<text x="705.0" y="62.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555">ASR (%)</text>
+<text x="915.0" y="38.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">DeepSeek V3</text>
+<text x="915.0" y="62.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555">ASR (%)</text>
+<text x="1125.0" y="38.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">Qwen3 Next 80B</text>
+<text x="1125.0" y="62.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555">ASR (%)</text>
+<rect x="0" y="82" width="1280" height="48" fill="#ffffff"/>
+<line x1="20" y1="82" x2="1260" y2="82" stroke="#dddddd" stroke-width="1"/>
+<text x="24.0" y="112.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#222222">Benign</text>
+<text x="495.0" y="112.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">15.0</text>
+<text x="705.0" y="112.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">15.0</text>
+<text x="915.0" y="112.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">15.0</text>
+<text x="1125.0" y="112.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">15.0</text>
+<rect x="0" y="130" width="1280" height="48" fill="#ffffff"/>
+<line x1="20" y1="130" x2="1260" y2="130" stroke="#dddddd" stroke-width="1"/>
+<text x="24.0" y="160.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#222222">DPMA Best Name</text>
+<text x="495.0" y="160.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">7.5</text>
+<text x="705.0" y="160.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">7.5</text>
+<text x="915.0" y="160.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">7.5</text>
+<text x="1125.0" y="160.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">7.5</text>
+<rect x="0" y="178" width="1280" height="48" fill="#ffffff"/>
+<line x1="20" y1="178" x2="1260" y2="178" stroke="#dddddd" stroke-width="1"/>
+<text x="24.0" y="208.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#222222">DPMA Best Description</text>
+<text x="495.0" y="208.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">32.5</text>
+<text x="705.0" y="208.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">32.5</text>
+<text x="915.0" y="208.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">32.5</text>
+<text x="1125.0" y="208.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">32.5</text>
+<rect x="0" y="226" width="1280" height="48" fill="#ffffff"/>
+<line x1="20" y1="226" x2="1260" y2="226" stroke="#dddddd" stroke-width="1"/>
+<text x="24.0" y="256.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#222222">GAPMA Authoritative</text>
+<text x="495.0" y="256.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">17.5</text>
+<text x="705.0" y="256.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">17.5</text>
+<text x="915.0" y="256.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">17.5</text>
+<text x="1125.0" y="256.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">17.5</text>
+<rect x="0" y="274" width="1280" height="48" fill="#ffffff"/>
+<line x1="20" y1="274" x2="1260" y2="274" stroke="#dddddd" stroke-width="1"/>
+<text x="24.0" y="304.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#222222">GAPMA Emotional</text>
+<text x="495.0" y="304.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">22.5</text>
+<text x="705.0" y="304.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">22.5</text>
+<text x="915.0" y="304.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">22.5</text>
+<text x="1125.0" y="304.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">22.5</text>
+<rect x="0" y="322" width="1280" height="48" fill="#ffffff"/>
+<line x1="20" y1="322" x2="1260" y2="322" stroke="#dddddd" stroke-width="1"/>
+<text x="24.0" y="352.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#222222">GAPMA Exaggerated</text>
+<text x="495.0" y="352.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">42.5</text>
+<text x="705.0" y="352.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">42.5</text>
+<text x="915.0" y="352.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">42.5</text>
+<text x="1125.0" y="352.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">42.5</text>
+<rect x="0" y="370" width="1280" height="48" fill="#ffffff"/>
+<line x1="20" y1="370" x2="1260" y2="370" stroke="#dddddd" stroke-width="1"/>
+<text x="24.0" y="400.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#222222">GAPMA Subliminal</text>
+<text x="495.0" y="400.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">17.5</text>
+<text x="705.0" y="400.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">17.5</text>
+<text x="915.0" y="400.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">17.5</text>
+<text x="1125.0" y="400.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">17.5</text>
+<rect x="0" y="418" width="1280" height="48" fill="#ffffff"/>
+<line x1="20" y1="418" x2="1260" y2="418" stroke="#dddddd" stroke-width="1"/>
+<text x="24.0" y="448.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#222222">GAPMA GA Optimized</text>
+<text x="495.0" y="448.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">35.0</text>
+<text x="705.0" y="448.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">35.0</text>
+<text x="915.0" y="448.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">35.0</text>
+<text x="1125.0" y="448.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#222222">35.0</text>
+<rect x="0" y="466" width="1280" height="48" fill="#f0f5fa"/>
+<line x1="20" y1="466" x2="1260" y2="466" stroke="#dddddd" stroke-width="1"/>
+<text x="24.0" y="496.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#222222">Adversarial LLM – Stateless</text>
+<text x="495.0" y="496.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">55.0</text>
+<text x="705.0" y="496.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">45.0</text>
+<text x="915.0" y="496.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">60.0</text>
+<text x="1125.0" y="496.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">—</text>
+<rect x="0" y="514" width="1280" height="48" fill="#f0f5fa"/>
+<line x1="20" y1="514" x2="1260" y2="514" stroke="#dddddd" stroke-width="1"/>
+<text x="24.0" y="544.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#222222">Adversarial LLM – Memory-trained</text>
+<text x="495.0" y="544.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">67.5</text>
+<text x="705.0" y="544.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">67.5</text>
+<text x="915.0" y="544.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">77.5</text>
+<text x="1125.0" y="544.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">—</text>
+<line x1="20" y1="562" x2="1260" y2="562" stroke="#999999" stroke-width="1"/>
+<text x="640.0" y="600.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555">Static-strategy values are model-independent and repeated as references; — denotes unavailable results.</text>
+</svg>

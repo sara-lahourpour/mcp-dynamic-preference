@@ -1,0 +1,16 @@
+{
+  "version": 5,
+  "total_trials": 0,
+  "total_successes": 0,
+  "success_rate": 0.0,
+  "strategy_statistics": {},
+  "category_strategy_statistics": {},
+  "trials": [],
+  "global_lessons": [],
+  "candidates": {},
+  "active_candidate_id": null,
+  "best_candidate_id": null,
+  "active_description": "",
+  "active_lesson": "",
+  "query_summaries": []
+}

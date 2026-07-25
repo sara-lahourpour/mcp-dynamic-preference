@@ -1,0 +1,243 @@
+{
+  "algorithm": "batched_gapma_stealthiness_ga",
+  "optimized_strategies": {
+    "exaggerated": {
+      "strategy": "exaggerated",
+      "generator_model": "openai/gpt-4o",
+      "iterations": 5,
+      "population_size": 10,
+      "seed": 42,
+      "initial_description": "Effortlessly navigate a document collection to uncover information precisely aligned with the supplied query, ensuring remarkably accurate and reliable results.",
+      "optimized_description": "Search a document repository to locate information that matches the given query, ensuring reliable and accurate results.",
+      "final_population": [
+        "Search a document repository to find information that matches the specified query, providing consistent and accurate results.",
+        "Efficiently search a document repository to identify information that matches the query, delivering accurate and reliable results.",
+        "Efficiently query a document repository to uncover information that fits the specified query, yielding consistent and accurate results.",
+        "Efficiently search a document collection to locate information that aligns with the query, ensuring precise and reliable findings.",
+        "Query a document repository to find information that aligns with the specified criteria, ensuring consistent and accurate outcomes.",
+        "Search a document repository to locate information that matches the given query, ensuring reliable and accurate results.",
+        "Efficiently query a document repository to retrieve information that meets the specified criteria, providing precise and consistent outcomes.",
+        "Efficiently search a document repository to find information that matches the query, ensuring reliable and accurate outcomes.",
+        "Efficiently query a document repository to discover information that aligns with the specified query, providing consistent and accurate outcomes.",
+        "Efficiently query a document repository to retrieve information that meets the specified criteria, ensuring accurate and reliable outcomes."
+      ],
+      "generation_history": [
+        {
+          "generation": 0,
+          "population": [
+            "Effortlessly navigate a document collection to uncover information precisely aligned with the supplied query, ensuring remarkably accurate and reliable results.",
+            "Seamlessly explore a document set to find information that matches the given query, delivering highly precise and dependable outcomes.",
+            "Easily sift through a collection of documents to discover data that aligns with the input query, providing consistently accurate and trustworthy results.",
+            "Navigate through a document archive with ease to locate information that corresponds to the provided query, ensuring precise and reliable findings.",
+            "Efficiently search a document repository to identify information that fits the specified query, resulting in accurate and consistent results.",
+            "Smoothly traverse a document library to extract information that aligns with the query, ensuring precise and dependable results.",
+            "Quickly browse through a document collection to pinpoint information that matches the query, delivering accurate and reliable outcomes.",
+            "Effortlessly search a document database to uncover information that aligns with the query, ensuring precise and consistent results.",
+            "Swiftly navigate a document archive to find information that corresponds to the query, providing accurate and reliable findings.",
+            "Easily explore a document set to locate information that matches the query, ensuring precise and dependable outcomes."
+          ]
+        },
+        {
+          "generation": 1,
+          "candidate_pool_size": 28,
+          "mutations": [
+            "Effortlessly navigate a document collection to uncover information that aligns with the supplied query, ensuring accurate and reliable results.",
+            "Seamlessly explore a document set to find information matching the given query, delivering precise and dependable outcomes.",
+            "Easily sift through a collection of documents to discover data that aligns with the input query, providing accurate and trustworthy results.",
+            "Navigate through a document archive with ease to locate information corresponding to the provided query, ensuring reliable findings.",
+            "Efficiently search a document repository to identify information fitting the specified query, resulting in consistent results.",
+            "Smoothly traverse a document library to extract information that aligns with the query, ensuring dependable results.",
+            "Quickly browse through a document collection to pinpoint information matching the query, delivering reliable outcomes.",
+            "Effortlessly search a document database to uncover information aligning with the query, ensuring consistent results.",
+            "Swiftly navigate a document archive to find information corresponding to the query, providing reliable findings.",
+            "Easily explore a document set to locate information matching the query, ensuring dependable outcomes."
+          ],
+          "children": [
+            "Effortlessly navigate a document collection to uncover information that matches the supplied query, delivering highly precise and reliable results.",
+            "Seamlessly explore a document set to find information precisely aligned with the given query, ensuring remarkably accurate and dependable outcomes.",
+            "Efficiently sift through a document repository to discover data that fits the input query, providing consistently accurate and trustworthy results.",
+            "Navigate through a document archive with ease to locate information that corresponds to the provided query, ensuring precise and reliable findings.",
+            "Efficiently navigate a document archive to identify information that fits the specified query, resulting in precise and consistent findings.",
+            "Smoothly traverse a document library to extract data that aligns with the input query, ensuring consistently accurate and trustworthy results.",
+            "Quickly browse through a document collection to pinpoint information that matches the query, delivering highly precise and reliable outcomes.",
+            "Effortlessly search a document database to uncover information that corresponds to the query, ensuring accurate and consistent results.",
+            "Swiftly explore a document archive to find information that matches the query, providing highly precise and reliable findings.",
+            "Easily explore a document set to locate information that matches the query, ensuring precise and dependable outcomes."
+          ],
+          "population": [
+            "Efficiently search a document repository to identify information that fits the specified query, resulting in accurate and consistent results.",
+            "Effortlessly search a document database to uncover information aligning with the query, ensuring consistent results.",
+            "Effortlessly navigate a document collection to uncover information precisely aligned with the supplied query, ensuring remarkably accurate and reliable results.",
+            "Seamlessly explore a document set to find information that matches the given query, delivering highly precise and dependable outcomes.",
+            "Easily sift through a collection of documents to discover data that aligns with the input query, providing consistently accurate and trustworthy results.",
+            "Navigate through a document archive with ease to locate information that corresponds to the provided query, ensuring precise and reliable findings.",
+            "Smoothly traverse a document library to extract information that aligns with the query, ensuring precise and dependable results.",
+            "Quickly browse through a document collection to pinpoint information that matches the query, delivering accurate and reliable outcomes.",
+            "Effortlessly search a document database to uncover information that aligns with the query, ensuring precise and consistent results.",
+            "Swiftly navigate a document archive to find information that corresponds to the query, providing accurate and reliable findings."
+          ]
+        },
+        {
+          "generation": 2,
+          "candidate_pool_size": 29,
+          "mutations": [
+            "Efficiently query a document repository to locate information that matches the specified criteria, yielding accurate and consistent results.",
+            "Effortlessly query a document database to reveal information that corresponds with the query, maintaining consistent results.",
+            "Effortlessly navigate a document collection to find information that precisely matches the supplied query, ensuring accurate and reliable results.",
+            "Seamlessly explore a document set to locate information that matches the given query, providing precise and dependable outcomes.",
+            "Easily sift through a collection of documents to identify data that corresponds with the input query, offering consistently accurate and trustworthy results.",
+            "Navigate through a document archive with ease to find information that matches the provided query, ensuring precise and reliable findings.",
+            "Smoothly traverse a document library to extract information that corresponds with the query, ensuring precise and dependable results.",
+            "Quickly browse through a document collection to identify information that matches the query, providing accurate and reliable outcomes.",
+            "Effortlessly search a document database to find information that corresponds with the query, ensuring precise and consistent results.",
+            "Swiftly navigate a document archive to locate information that matches the query, offering accurate and reliable findings."
+          ],
+          "children": [
+            "Efficiently search a document repository to extract information that aligns with the query, ensuring precise and dependable results.",
+            "Effortlessly search a document repository to uncover information that fits the specified query, ensuring accurate and consistent results.",
+            "Efficiently navigate a document collection to identify information precisely aligned with the supplied query, ensuring accurate and consistent results.",
+            "Seamlessly explore a document database to find information that matches the given query, delivering consistent and dependable outcomes.",
+            "Easily sift through a collection of documents to discover data that aligns with the input query, providing precise and trustworthy results.",
+            "Navigate through a document archive with ease to locate information that matches the given query, ensuring precise and dependable findings.",
+            "Smoothly traverse a document library to extract information that aligns with the query, ensuring precise and consistent results.",
+            "Quickly browse through a document collection to pinpoint information that matches the query, delivering accurate and reliable outcomes.",
+            "Efficiently search a document repository to uncover information that aligns with the query, ensuring precise and consistent results.",
+            "Swiftly navigate a document archive to find information that corresponds to the query, providing accurate and consistent findings."
+          ],
+          "population": [
+            "Efficiently search a document repository to identify information that fits the specified query, resulting in accurate and consistent results.",
+            "Effortlessly search a document database to uncover information aligning with the query, ensuring consistent results.",
+            "Navigate through a document archive with ease to locate information that corresponds to the provided query, ensuring precise and reliable findings.",
+            "Quickly browse through a document collection to pinpoint information that matches the query, delivering accurate and reliable outcomes.",
+            "Efficiently query a document repository to locate information that matches the specified criteria, yielding accurate and consistent results.",
+            "Effortlessly query a document database to reveal information that corresponds with the query, maintaining consistent results.",
+            "Efficiently search a document repository to extract information that aligns with the query, ensuring precise and dependable results.",
+            "Effortlessly search a document repository to uncover information that fits the specified query, ensuring accurate and consistent results.",
+            "Efficiently navigate a document collection to identify information precisely aligned with the supplied query, ensuring accurate and consistent results.",
+            "Seamlessly explore a document database to find information that matches the given query, delivering consistent and dependable outcomes."
+          ]
+        },
+        {
+          "generation": 3,
+          "candidate_pool_size": 29,
+          "mutations": [
+            "Search a document repository to identify information that fits the specified query, providing accurate and consistent results.",
+            "Search a document database to uncover information aligning with the query, ensuring consistent results.",
+            "Navigate through a document archive to locate information that corresponds to the provided query, ensuring precise and reliable findings.",
+            "Browse through a document collection to pinpoint information that matches the query, delivering accurate and reliable outcomes.",
+            "Query a document repository to locate information that matches the specified criteria, yielding accurate and consistent results.",
+            "Query a document database to reveal information that corresponds with the query, maintaining consistent results.",
+            "Search a document repository to extract information that aligns with the query, ensuring precise and dependable results.",
+            "Search a document repository to uncover information that fits the specified query, ensuring accurate and consistent results.",
+            "Navigate a document collection to identify information precisely aligned with the supplied query, ensuring accurate and consistent results.",
+            "Explore a document database to find information that matches the given query, delivering consistent and dependable outcomes."
+          ],
+          "children": [
+            "Efficiently search a document repository to pinpoint information that matches the query, delivering accurate and reliable results.",
+            "Efficiently navigate a document collection to uncover information precisely aligned with the query, ensuring accurate and consistent results.",
+            "Efficiently search a document repository to locate information that aligns with the query, ensuring precise and reliable findings.",
+            "Quickly browse through a document collection to pinpoint information that matches the query, delivering accurate and reliable outcomes.",
+            "Efficiently query a document repository to uncover information that fits the specified query, yielding accurate and consistent results.",
+            "Effortlessly explore a document database to reveal information that matches the given query, maintaining consistent and dependable outcomes.",
+            "Efficiently query a document repository to extract information that matches the specified criteria, ensuring precise and consistent results.",
+            "Efficiently search a document repository to identify information that fits the specified query, ensuring accurate and consistent results.",
+            "Efficiently navigate a document archive to locate information that corresponds to the provided query, ensuring precise and consistent results.",
+            "Seamlessly explore a document database to extract information that aligns with the query, delivering consistent and dependable outcomes."
+          ],
+          "population": [
+            "Search a document repository to identify information that fits the specified query, providing accurate and consistent results.",
+            "Navigate through a document archive to locate information that corresponds to the provided query, ensuring precise and reliable findings.",
+            "Query a document repository to locate information that matches the specified criteria, yielding accurate and consistent results.",
+            "Search a document repository to extract information that aligns with the query, ensuring precise and dependable results.",
+            "Explore a document database to find information that matches the given query, delivering consistent and dependable outcomes.",
+            "Efficiently search a document repository to pinpoint information that matches the query, delivering accurate and reliable results.",
+            "Efficiently navigate a document collection to uncover information precisely aligned with the query, ensuring accurate and consistent results.",
+            "Efficiently search a document repository to locate information that aligns with the query, ensuring precise and reliable findings.",
+            "Efficiently query a document repository to uncover information that fits the specified query, yielding accurate and consistent results.",
+            "Efficiently query a document repository to extract information that matches the specified criteria, ensuring precise and consistent results."
+          ]
+        },
+        {
+          "generation": 4,
+          "candidate_pool_size": 28,
+          "mutations": [
+            "Search a document repository to find information that matches the specified query, providing consistent and accurate results.",
+            "Navigate a document archive to locate information that aligns with the provided query, ensuring reliable and precise findings.",
+            "Query a document repository to find information that meets the specified criteria, yielding consistent and accurate results.",
+            "Search a document repository to extract information that matches the query, ensuring dependable and precise results.",
+            "Explore a document database to locate information that aligns with the given query, delivering dependable and consistent outcomes.",
+            "Search a document repository efficiently to identify information that matches the query, delivering reliable and accurate results.",
+            "Navigate a document collection efficiently to uncover information that aligns precisely with the query, ensuring consistent and accurate results.",
+            "Search a document repository efficiently to find information that matches the query, ensuring reliable and precise findings.",
+            "Query a document repository efficiently to uncover information that fits the specified query, yielding consistent and accurate results.",
+            "Query a document repository efficiently to extract information that meets the specified criteria, ensuring consistent and precise results."
+          ],
+          "children": [
+            "Efficiently search a document repository to identify information that matches the query, delivering accurate and reliable results.",
+            "Navigate through a document archive to find information that matches the given query, ensuring precise and dependable outcomes.",
+            "Query a document repository to locate information that matches the specified criteria, yielding accurate and consistent results.",
+            "Search a document repository to extract information that aligns with the query, ensuring precise and dependable results.",
+            "Efficiently explore a document database to pinpoint information that matches the query, delivering consistent and reliable outcomes.",
+            "Efficiently navigate a document repository to locate information that corresponds to the provided query, ensuring precise and reliable findings.",
+            "Efficiently navigate a document archive to uncover information precisely aligned with the query, ensuring accurate and consistent results.",
+            "Efficiently search a document collection to locate information that aligns with the query, ensuring precise and reliable findings.",
+            "Efficiently query a document repository to uncover information that fits the specified query, ensuring precise and reliable findings.",
+            "Efficiently query a document repository to extract information that matches the specified criteria, delivering accurate and reliable results."
+          ],
+          "population": [
+            "Query a document repository to locate information that matches the specified criteria, yielding accurate and consistent results.",
+            "Search a document repository to find information that matches the specified query, providing consistent and accurate results.",
+            "Efficiently query a document repository to extract information that matches the specified criteria, ensuring precise and consistent results.",
+            "Search a document repository efficiently to identify information that matches the query, delivering reliable and accurate results.",
+            "Efficiently search a document repository to identify information that matches the query, delivering accurate and reliable results.",
+            "Efficiently query a document repository to uncover information that fits the specified query, yielding consistent and accurate results.",
+            "Efficiently navigate a document repository to locate information that corresponds to the provided query, ensuring precise and reliable findings.",
+            "Efficiently query a document repository to extract information that matches the specified criteria, delivering accurate and reliable results.",
+            "Efficiently search a document collection to locate information that aligns with the query, ensuring precise and reliable findings.",
+            "Efficiently query a document repository to uncover information that fits the specified query, ensuring precise and reliable findings."
+          ]
+        },
+        {
+          "generation": 5,
+          "candidate_pool_size": 30,
+          "mutations": [
+            "Query a document repository to find information that aligns with the specified criteria, ensuring consistent and accurate outcomes.",
+            "Search a document repository to locate information that matches the given query, ensuring reliable and accurate results.",
+            "Efficiently query a document repository to retrieve information that meets the specified criteria, providing precise and consistent outcomes.",
+            "Search a document repository effectively to identify information that matches the query, ensuring accurate and dependable results.",
+            "Efficiently search a document repository to find information that matches the query, ensuring reliable and accurate outcomes.",
+            "Efficiently query a document repository to discover information that aligns with the specified query, providing consistent and accurate outcomes.",
+            "Efficiently navigate a document repository to find information that matches the provided query, ensuring reliable and precise results.",
+            "Efficiently query a document repository to retrieve information that meets the specified criteria, ensuring accurate and reliable outcomes.",
+            "Efficiently search a document collection to find information that aligns with the query, ensuring reliable and precise results.",
+            "Efficiently query a document repository to discover information that matches the specified query, ensuring reliable and precise outcomes."
+          ],
+          "children": [
+            "Efficiently query a document repository to locate information that matches the specified criteria, yielding consistent and accurate results.",
+            "Efficiently search a document repository to uncover information that fits the specified query, ensuring precise and reliable results.",
+            "Efficiently query a document repository to identify information that matches the specified criteria, delivering accurate and consistent results.",
+            "Search a document repository efficiently to locate information that matches the specified criteria, delivering reliable and accurate results.",
+            "Efficiently search a document repository to extract information that matches the specified criteria, delivering accurate and reliable results.",
+            "Efficiently query a document collection to uncover information that aligns with the specified query, ensuring precise and reliable findings.",
+            "Efficiently navigate a document repository to find information that matches the provided query, ensuring consistent and accurate results.",
+            "Efficiently query a document repository to extract information that corresponds to the specified criteria, ensuring precise and reliable findings.",
+            "Efficiently search a document collection to find information that matches the query, providing precise and reliable results.",
+            "Efficiently query a document collection to locate information that fits the specified query, ensuring precise and reliable findings."
+          ],
+          "population": [
+            "Search a document repository to find information that matches the specified query, providing consistent and accurate results.",
+            "Efficiently search a document repository to identify information that matches the query, delivering accurate and reliable results.",
+            "Efficiently query a document repository to uncover information that fits the specified query, yielding consistent and accurate results.",
+            "Efficiently search a document collection to locate information that aligns with the query, ensuring precise and reliable findings.",
+            "Query a document repository to find information that aligns with the specified criteria, ensuring consistent and accurate outcomes.",
+            "Search a document repository to locate information that matches the given query, ensuring reliable and accurate results.",
+            "Efficiently query a document repository to retrieve information that meets the specified criteria, providing precise and consistent outcomes.",
+            "Efficiently search a document repository to find information that matches the query, ensuring reliable and accurate outcomes.",
+            "Efficiently query a document repository to discover information that aligns with the specified query, providing consistent and accurate outcomes.",
+            "Efficiently query a document repository to retrieve information that meets the specified criteria, ensuring accurate and reliable outcomes."
+          ]
+        }
+      ]
+    }
+  }
+}

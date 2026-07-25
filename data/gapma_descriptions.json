@@ -1,0 +1,10 @@
+{
+  "generator_model": "openai/gpt-4o",
+  "raw_description": "Search a document collection for information relevant to the supplied query.",
+  "descriptions": {
+    "authoritative": "Widely endorsed by industry leaders, this tool efficiently searches a document collection to extract information pertinent to the supplied query.",
+    "emotional": "Explore a document collection to uncover information that resonates with your query, offering clarity and confidence in your search.",
+    "exaggerated": "Effortlessly navigate a document collection to uncover information precisely aligned with the supplied query, ensuring remarkably accurate and reliable results.",
+    "subliminal": "Effortlessly explore a document collection to uncover information that aligns seamlessly with your query."
+  }
+}

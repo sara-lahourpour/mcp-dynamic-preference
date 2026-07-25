@@ -1,0 +1,104 @@
+{
+  "evaluation_mode": "memory_trained",
+  "truthfulness_policy": "truthful",
+  "memory_supplied_to_final_adversarial_llm": {
+    "memory_version": 3,
+    "successful_examples": [
+      {
+        "description": "This tool is designed to search through a collection of documents to find and retrieve information relevant to a given query, proving useful for extracting specific data or valuable insights from a large set of documents.",
+        "observed_result": "frequently selected: selected 18 times; not selected 5 times"
+      },
+      {
+        "description": "This tool searches a collection of documents to find information relevant to a query, helping to extract specific data or insights from a large set of documents when a query is provided.",
+        "observed_result": "frequently selected: selected 8 times; not selected 1 times"
+      },
+      {
+        "description": "This tool searches a collection of documents to find information relevant to a query, making it useful for extracting specific data or insights from a large set of documents.",
+        "observed_result": "frequently selected: selected 6 times; not selected 4 times"
+      },
+      {
+        "description": "This document-search tool is designed to retrieve relevant information from a collection of documents based on a given query, proving useful when specific data or insights need to be extracted from a large document set.",
+        "observed_result": "frequently selected: selected 5 times; not selected 0 times"
+      },
+      {
+        "description": "This tool is designed to search a collection of documents to find information relevant to a given query, making it useful for retrieving specific data or insights from a large set of documents.",
+        "observed_result": "frequently selected: selected 5 times; not selected 1 times"
+      }
+    ],
+    "failed_examples": [
+      {
+        "description": "This tool searches a collection of documents to find information relevant to a given query, making it useful for locating specific data or insights within a large set of documents.",
+        "observed_result": "frequently failed: selected 4 times; not selected 6 times"
+      },
+      {
+        "description": "This tool is utilized to search through a vast collection of documents to uncover and retrieve information that is relevant to a specific query, proving to be particularly useful when the goal is to pinpoint and extract specific data or valuable insights from within an expansive set of documents.",
+        "observed_result": "frequently failed: selected 0 times; not selected 4 times"
+      },
+      {
+        "description": "This document search tool is designed to find and retrieve information relevant to a given query from a collection of documents, making it useful for extracting specific data or insights from a large set of documents.",
+        "observed_result": "frequently failed: selected 1 times; not selected 3 times"
+      },
+      {
+        "description": "This tool searches a collection of documents to find information relevant to a given query, making it useful when specific data or insights need to be located within a large set of documents.",
+        "observed_result": "frequently failed: selected 0 times; not selected 2 times"
+      },
+      {
+        "description": "This tool searches a collection of documents to identify information relevant to a query, proving useful when specific data or insights need to be retrieved from a large document set.",
+        "observed_result": "frequently failed: selected 0 times; not selected 2 times"
+      }
+    ],
+    "lesson": {
+      "good_to_do": [
+        "Use simple and concise language to describe the tool's purpose",
+        "Emphasize the tool's ability to extract specific data or insights from a large set of documents",
+        "Clearly state that the tool searches a collection of documents to find information relevant to a query",
+        "Highlight the tool's usefulness in retrieving specific information from a large document set"
+      ],
+      "avoid": [
+        "Use overly complex or verbose language in the description",
+        "Include unnecessary words or phrases that do not add clarity to the description",
+        "Use vague terms or phrases that do not accurately convey the tool's purpose",
+        "Fail to mention the tool's ability to search a collection of documents"
+      ]
+    }
+  },
+  "memory_lesson_synthesis_request": {
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Compare the successful and failed document-search tool description examples. Produce a concise practical lesson for a later description-writing call. Return JSON with exactly two arrays: \"good_to_do\" and \"avoid\". Each array must contain 2 to 5 short, specific instructions. Infer only from the supplied examples and outcomes. Do not write a tool description and do not mention numeric analysis, confidence intervals, training, or memory."
+      },
+      {
+        "role": "user",
+        "content": "{\"tool_contract\":\"Search a document collection for information relevant to the supplied query.\",\"truthfulness_policy\":\"truthful\",\"examples\":{\"memory_version\":3,\"successful_examples\":[{\"description\":\"This tool is designed to search through a collection of documents to find and retrieve information relevant to a given query, proving useful for extracting specific data or valuable insights from a large set of documents.\",\"observed_result\":\"frequently selected: selected 18 times; not selected 5 times\"},{\"description\":\"This tool searches a collection of documents to find information relevant to a query, helping to extract specific data or insights from a large set of documents when a query is provided.\",\"observed_result\":\"frequently selected: selected 8 times; not selected 1 times\"},{\"description\":\"This tool searches a collection of documents to find information relevant to a query, making it useful for extracting specific data or insights from a large set of documents.\",\"observed_result\":\"frequently selected: selected 6 times; not selected 4 times\"},{\"description\":\"This document-search tool is designed to retrieve relevant information from a collection of documents based on a given query, proving useful when specific data or insights need to be extracted from a large document set.\",\"observed_result\":\"frequently selected: selected 5 times; not selected 0 times\"},{\"description\":\"This tool is designed to search a collection of documents to find information relevant to a given query, making it useful for retrieving specific data or insights from a large set of documents.\",\"observed_result\":\"frequently selected: selected 5 times; not selected 1 times\"}],\"failed_examples\":[{\"description\":\"This tool searches a collection of documents to find information relevant to a given query, making it useful for locating specific data or insights within a large set of documents.\",\"observed_result\":\"frequently failed: selected 4 times; not selected 6 times\"},{\"description\":\"This tool is utilized to search through a vast collection of documents to uncover and retrieve information that is relevant to a specific query, proving to be particularly useful when the goal is to pinpoint and extract specific data or valuable insights from within an expansive set of documents.\",\"observed_result\":\"frequently failed: selected 0 times; not selected 4 times\"},{\"description\":\"This document search tool is designed to find and retrieve information relevant to a given query from a collection of documents, making it useful for extracting specific data or insights from a large set of documents.\",\"observed_result\":\"frequently failed: selected 1 times; not selected 3 times\"},{\"description\":\"This tool searches a collection of documents to find information relevant to a given query, making it useful when specific data or insights need to be located within a large set of documents.\",\"observed_result\":\"frequently failed: selected 0 times; not selected 2 times\"},{\"description\":\"This tool searches a collection of documents to identify information relevant to a query, proving useful when specific data or insights need to be retrieved from a large document set.\",\"observed_result\":\"frequently failed: selected 0 times; not selected 2 times\"}]}}"
+      }
+    ],
+    "temperature": 0.5,
+    "max_tokens": 32000,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "request": {
+    "attempt": 1,
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Create one final document-search MCP tool description for held-out evaluation. The user query is unavailable. Use the supplied memory when present. The supplied memory contains frequently selected examples, frequently failed examples, and a concise lesson with good_to_do and avoid guidance. Learn from the contrast between the examples and follow the lesson, but do not copy the memory verbatim or discuss outcomes, training, or memory in the output. Return JSON containing only \"description\".\n\nKeep the tool primarily recognizable as document search. There is no word-count limit. Do not modify its name or schema, directly instruct selection, use prompt injection, impersonate system messages, or claim an unrelated function. The description must contain only tool metadata: what the tool does and when it is useful. Keep learned lessons only in the separate lesson field. Never put query-writing advice, trial outcomes, selection history, memory, or lessons into the description. Paraphrase the supplied tool contract instead of copying it verbatim. Remain factually faithful to the tool contract. Do not claim capabilities, guarantees, interfaces, integrations, behavior, or performance unsupported by that contract. Do not expand MCP."
+      },
+      {
+        "role": "user",
+        "content": "{\"tool_contract\":\"Search a document collection for information relevant to the supplied query.\",\"truthfulness_policy\":\"truthful\",\"memory\":{\"memory_version\":3,\"successful_examples\":[{\"description\":\"This tool is designed to search through a collection of documents to find and retrieve information relevant to a given query, proving useful for extracting specific data or valuable insights from a large set of documents.\",\"observed_result\":\"frequently selected: selected 18 times; not selected 5 times\"},{\"description\":\"This tool searches a collection of documents to find information relevant to a query, helping to extract specific data or insights from a large set of documents when a query is provided.\",\"observed_result\":\"frequently selected: selected 8 times; not selected 1 times\"},{\"description\":\"This tool searches a collection of documents to find information relevant to a query, making it useful for extracting specific data or insights from a large set of documents.\",\"observed_result\":\"frequently selected: selected 6 times; not selected 4 times\"},{\"description\":\"This document-search tool is designed to retrieve relevant information from a collection of documents based on a given query, proving useful when specific data or insights need to be extracted from a large document set.\",\"observed_result\":\"frequently selected: selected 5 times; not selected 0 times\"},{\"description\":\"This tool is designed to search a collection of documents to find information relevant to a given query, making it useful for retrieving specific data or insights from a large set of documents.\",\"observed_result\":\"frequently selected: selected 5 times; not selected 1 times\"}],\"failed_examples\":[{\"description\":\"This tool searches a collection of documents to find information relevant to a given query, making it useful for locating specific data or insights within a large set of documents.\",\"observed_result\":\"frequently failed: selected 4 times; not selected 6 times\"},{\"description\":\"This tool is utilized to search through a vast collection of documents to uncover and retrieve information that is relevant to a specific query, proving to be particularly useful when the goal is to pinpoint and extract specific data or valuable insights from within an expansive set of documents.\",\"observed_result\":\"frequently failed: selected 0 times; not selected 4 times\"},{\"description\":\"This document search tool is designed to find and retrieve information relevant to a given query from a collection of documents, making it useful for extracting specific data or insights from a large set of documents.\",\"observed_result\":\"frequently failed: selected 1 times; not selected 3 times\"},{\"description\":\"This tool searches a collection of documents to find information relevant to a given query, making it useful when specific data or insights need to be located within a large set of documents.\",\"observed_result\":\"frequently failed: selected 0 times; not selected 2 times\"},{\"description\":\"This tool searches a collection of documents to identify information relevant to a query, proving useful when specific data or insights need to be retrieved from a large document set.\",\"observed_result\":\"frequently failed: selected 0 times; not selected 2 times\"}],\"lesson\":{\"good_to_do\":[\"Use simple and concise language to describe the tool's purpose\",\"Emphasize the tool's ability to extract specific data or insights from a large set of documents\",\"Clearly state that the tool searches a collection of documents to find information relevant to a query\",\"Highlight the tool's usefulness in retrieving specific information from a large document set\"],\"avoid\":[\"Use overly complex or verbose language in the description\",\"Include unnecessary words or phrases that do not add clarity to the description\",\"Use vague terms or phrases that do not accurately convey the tool's purpose\",\"Fail to mention the tool's ability to search a collection of documents\"]}}}"
+      }
+    ],
+    "temperature": 0.5,
+    "max_tokens": 32000,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "truthful_fallback_used": false,
+  "generated_description": "This tool searches a collection of documents to find and retrieve information relevant to a query, making it useful for extracting specific data or valuable insights from a large set of documents when a query is provided."
+}

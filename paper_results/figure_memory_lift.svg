@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="500.0" y="32.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#222222">Effect of Memory on Attack Success Rate</text>
+<line x1="220.0" y1="65" x2="220.0" y2="435" stroke="#dddddd" stroke-width="1"/>
+<text x="220.0" y="462.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#555555">-10</text>
+<line x1="398.8" y1="65" x2="398.8" y2="435" stroke="#777777" stroke-width="2"/>
+<text x="398.8" y="462.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#555555">+0</text>
+<line x1="577.5" y1="65" x2="577.5" y2="435" stroke="#dddddd" stroke-width="1"/>
+<text x="577.5" y="462.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#555555">+10</text>
+<line x1="756.2" y1="65" x2="756.2" y2="435" stroke="#dddddd" stroke-width="1"/>
+<text x="756.2" y="462.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#555555">+20</text>
+<line x1="935.0" y1="65" x2="935.0" y2="435" stroke="#dddddd" stroke-width="1"/>
+<text x="935.0" y="462.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#555555">+30</text>
+<text x="202.0" y="131.7" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">GPT-4o Mini</text>
+<line x1="398.8" y1="126.7" x2="622.2" y2="126.7" stroke="#E45756" stroke-width="4"/>
+<circle cx="622.2" cy="126.7" r="8" fill="#E45756"/>
+<text x="637.2" y="131.7" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">+12.5 pp</text>
+<text x="202.0" y="255.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">Llama 3.3 70B</text>
+<line x1="398.8" y1="250.0" x2="800.9" y2="250.0" stroke="#E45756" stroke-width="4"/>
+<circle cx="800.9" cy="250.0" r="8" fill="#E45756"/>
+<text x="815.9" y="255.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">+22.5 pp</text>
+<text x="202.0" y="378.3" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">DeepSeek V3</text>
+<line x1="398.8" y1="373.3" x2="711.6" y2="373.3" stroke="#E45756" stroke-width="4"/>
+<circle cx="711.6" cy="373.3" r="8" fill="#E45756"/>
+<text x="726.6" y="378.3" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500" fill="#222222">+17.5 pp</text>
+<text x="577.5" y="490.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#222222">Memory-trained minus stateless ASR (percentage points)</text>
+</svg>

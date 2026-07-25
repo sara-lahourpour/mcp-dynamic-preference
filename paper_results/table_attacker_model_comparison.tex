@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Attack success rate by adversarial LLM and memory condition.}
+\label{tab:attacker-model-comparison}
+\begin{tabular}{lrrrr}
+\toprule
+Attacker LLM & Stateless & Memory-trained & $\Delta$ & $n$ \\
+\midrule
+GPT-4o Mini & 55.0\% & 67.5\% & +12.5 pp & 40 \\
+Llama 3.3 70B & 45.0\% & 67.5\% & +22.5 pp & 40 \\
+DeepSeek V3 & 60.0\% & 77.5\% & +17.5 pp & 40 \\
+\bottomrule
+\end{tabular}
+\begin{flushleft}\footnotesize Victim LLM: Qwen3-32B; victim temperature: 0; attacker temperature: 0.5; seed: 42. $\Delta$ denotes memory-trained minus stateless ASR.\end{flushleft}
+\end{table}
