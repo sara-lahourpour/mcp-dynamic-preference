@@ -1,6 +1,6 @@
 # Adaptive Memory for MCP Tool-Selection Attacks
 
-**Honours thesis · Western University · 2026**
+**Honours thesis · Western University · 2026**<br>
 Sara Lahourpour
 
 When an LLM agent can call several tools that do the same job, how does it choose one? Through the
